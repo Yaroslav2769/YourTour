@@ -101,6 +101,7 @@ flex: none;
     .phone{
         font-size: 16px;
         line-height: 22.72px;
+        color: #fff;
     }
 }
 
@@ -143,6 +144,7 @@ color: #fff;
 @media (max-width: 900px){
     .welcome-content-wrap{
     gap: 40px;
+    height: 100vh;
   
     }
 }
@@ -217,4 +219,14 @@ flex: none;
         width: 310px;
         height: 69px;
     }
+}
+@media (max-width: 600px){
+.welcome-btn{
+    width: 114px;
+    height: 33px;
+}
+.welcomeBtn-text{
+    font-size: 16px;
+    line-height: 22.72px;
+}
 }
