@@ -802,7 +802,8 @@ height: 28px;
 }
 
 @media(max-width: 480px) and (pointer: fine){
- .cards:hover{
+ .cards:hover .cards-fon,
+  .cards:hover .rgb{
     display: none;
  }
 
@@ -1070,7 +1071,7 @@ line-height: 28.4px;
 
 .forma::-webkit-input-placeholder{
     color: #A6A6A6;
-  }
+}
 
   .select-text{
     font-weight: 400;
@@ -1079,26 +1080,26 @@ line-height: 28.4px;
     color: #A6A6A6;
     }
     
-    @media(max-width: 480px){
-        .select-text{
+@media(max-width: 480px){
+.select-text{
+    font-size: 16px;
+    line-height: 22.72px;
+    }
+}
+@media(max-width: 768px){
+.select-text{
         font-size: 16px;
         line-height: 22.72px;
-        }
     }
-    @media(max-width: 768px){
-        .select-text{
-        font-size: 16px;
-        line-height: 22.72px;
-        }
-        .forma-text{
-            font-size: 16px;
-            line-height: 22.72px;
-           }
-           .content-forma{
-           font-size: 16px;
-           line-height: 22.72px;
-           }
+.forma-text{
+    font-size: 16px;
+    line-height: 22.72px;
     }
+.content-forma{
+    font-size: 16px;
+    line-height: 22.72px;
+    }
+}
     
 .forma-wrapper-container{
 display: flex;
@@ -1106,7 +1107,6 @@ flex-direction: row;
 align-items: flex-start;
 padding: 0px;
 gap: 30px;
-
 height: 104px;
 }
 
