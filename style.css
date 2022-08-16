@@ -27,8 +27,6 @@ button {
         line-height: 22.72px;
     }
   }
- 
- 
 
   .vector-card{
     width: 22px;
@@ -891,7 +889,7 @@ text-align: center;
 
 .forma-wrap{
 display: flex;
-flex-direction: column;
+flex-direction: row;
 align-items: flex-start;
 padding: 70px;
 gap: 33px;
@@ -907,19 +905,171 @@ height: 966px;
 }
 }
 @media (max-width: 480px){
-    .forma-wrap{
+.forma-wrap{
     padding: 20px 20px 40px;
     gap: 30px;
     height: 1110px;
-        margin-top: 40px;
+    margin-top: 40px;
+    border-radius: 30px;
+    flex-direction: column;
     }
 }
 
 @media (max-width: 768px){
-    .forma-wrap{
-        padding: 20px 20px 40px;
-        gap: 30px;
-        height: 1110px;
-        
+.forma-wrap{
+    padding: 20px 20px 40px;
+    gap: 30px;
+    height: 1110px;
+    margin-top: 40px;
+    border-radius: 30px;
+    flex-direction: column;
     }    
 }
+
+.forma-wrapper{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+width: 500px;
+height: 104px;
+}
+
+@media(max-width: 1600px){
+.forma-wrapper{
+width: 389px;
+height: 104px;
+ }
+}
+
+@media(max-width: 480px){
+.forma-wrapper{
+width: 278px;
+height: 74px;
+ }
+}
+
+@media(max-width: 768px){
+.forma-wrapper{
+width: 278px;
+height: 74px;  
+ }
+}
+    
+    
+
+.forma{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 10px;
+width: 500px;
+height: 68px;
+background: #F9F7F4;
+border: 1px solid #F4F0E9;
+border-radius: 10px;
+}
+@media(max-width: 1600px){
+.forma{
+    width: 389px;
+}
+}
+
+@media(max-width: 480px){
+    .forma{
+        padding: 10px;
+        width: 278px;
+        height: 43px;
+    }
+}
+
+@media(max-width: 768px){
+    .forma{
+        padding: 10px;
+        width: 278px;
+        height: 43px;
+    }
+}
+
+
+.forma:hover{
+background: #F4F0E9;
+
+}
+.forma:focus{
+    background: #F4F0E9;
+    border: 1px solid #A6A6A6
+    }
+    
+@media(max-width: 480px) and (pointer: fine){
+    .forma:hover,
+    .forma:focus{
+        display: none;
+    }
+}
+
+@media(max-width: 768px) and (pointer: fine){
+    .forma:hover,
+    .forma:focus{
+        display: none;
+    }
+}
+
+.forma-text{
+font-weight: 400;
+font-size: 20px;
+line-height: 28.4px;
+}
+
+.content-forma{
+font-weight: 400;
+font-size: 20px;
+line-height: 28.4px;
+}
+
+@media(max-width: 480px){
+    .forma-text{
+     font-size: 16px;
+     line-height: 22.72px;
+    }
+    .content-forma{
+    font-size: 16px;
+    line-height: 22.72px;
+    }
+}
+
+.forma::-webkit-input-placeholder{
+    color: #A6A6A6;
+  }
+
+  .select-text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28.4px;
+    color: #A6A6A6;
+    }
+    
+    @media(max-width: 480px){
+        .select-text{
+        font-size: 16px;
+        line-height: 22.72px;
+        }
+    }
+    @media(max-width: 768px){
+        .select-text{
+        font-size: 16px;
+        line-height: 22.72px;
+        }
+        .forma-text{
+            font-size: 16px;
+            line-height: 22.72px;
+           }
+           .content-forma{
+           font-size: 16px;
+           line-height: 22.72px;
+           }
+    }
+    
+    
