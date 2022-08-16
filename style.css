@@ -346,13 +346,13 @@ padding: 0px;
 }
 @media(max-width: 480px){
     .wrap-main{
-        margin-top: 50px;
+        margin-top: 75px;
         height: 2172px;
     }
  }
  @media(max-width: 768px){
     .wrap-main{
-        margin-top: 50px;
+        margin-top: 75px;
         height: 2172px;
     }
  }
@@ -781,6 +781,145 @@ height: 28px;
  }
 
 }
- 
+    /* /=============TOUR =================/ */
+ .wrap-tour{
+  margin-top: 135px;
+  height: 1245px;
+  padding: 0;
+ }
+     
+ @media(max-width: 1600px){
+    .wrap-tour{
+     height: 1225px;
+    }
+ }
+  
+ @media(max-width: 480px){
+    .wrap-tour{
+        margin-top: 75px;
+        height: 1254px;
+    }
+ }
+ @media(max-width: 768px){
+    .wrap-tour{
+        margin-top: 75px;
+        height: 1225px;
+    }
+ }
+ .container-tour{
+    margin: 0 auto;
+    width: 1168px;  
+ }
+
+ @media(max-width: 1600px){
+    .container-tour{
+     width: 910px;
+    }
+ }
+
+ @media(max-width: 480px){
+    .container-tour{
+        width: 320px;
+    }
+ }
+ @media(max-width: 768px){
+.container-tour{
+width: 320px;
+}
+}
+
+.tour-wrap-content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 30px;
+height: 159px;
+}
 
 
+.tour-title{
+font-weight: 700;
+font-size: 59px;
+line-height: 73.16px;
+text-align: center;
+}
+
+@media(max-width: 480px){
+    .tour-title{
+    font-size: 34px;
+    line-height: 38.08px;
+    letter-spacing: 0.02em;
+    }
+}
+@media(max-width: 768px){
+   .tour-title{
+    font-size: 34px;
+    line-height: 38.08px;
+    letter-spacing: 0.02em;
+   }
+}
+
+
+.tour-description{
+ font-size: 20px;
+ font-weight: 400;
+ line-height: 28.4px;
+ text-align: center;
+ color: #A6A6A6;
+}
+
+
+@media(max-width: 480px){
+    .tour-description{
+    font-size: 16px;
+    line-height: 22.72px;
+    width: 318px;
+    }
+}
+
+.hiden{
+    display: none;
+}
+@media(max-width: 768px){
+   .tour-description{
+    font-size: 16px;
+    line-height: 22.72px;
+   }
+}
+
+.forma-wrap{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 70px;
+gap: 33px;
+height: 986px;
+background: #FFFFFF;
+border-radius: 50px;
+margin-top: 100px;
+}
+@media (max-width: 1600px){
+.forma-wrap{
+padding: 60px;
+height: 966px;
+}
+}
+@media (max-width: 480px){
+    .forma-wrap{
+    padding: 20px 20px 40px;
+    gap: 30px;
+    height: 1110px;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 768px){
+    .forma-wrap{
+        padding: 20px 20px 40px;
+        gap: 30px;
+        height: 1110px;
+        
+    }    
+}
