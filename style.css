@@ -8,6 +8,40 @@ button {
     border: none;
   }
 
+
+
+  select {
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    -o-appearance:none;
+     appearance:none; 
+  }
+  .str{
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 458px;
+   }
+   @media(max-width: 1600px){
+    .str{
+    margin-top: 65px;
+    margin-left: 346px; 
+    }
+   }
+   @media(max-width: 480px){
+    .str{
+    margin-top: 50px;
+    margin-left: 250px; 
+    width: 13px;
+    }
+   }
+   @media(max-width: 768px){
+    .str{
+    margin-top: 50px;
+    margin-left: 246px; 
+    
+    }
+   }
+
   .payments{
     font-weight: 700;
     font-size: 23px;
