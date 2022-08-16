@@ -68,12 +68,6 @@ button {
     
   }
 
-  
-  /* section{
-    margin-bottom: 135px;
-  }
-  
- */
 
 *{
 box-sizing: border-box;
@@ -923,7 +917,7 @@ text-align: center;
 
 .forma-wrap{
 display: flex;
-flex-direction: row;
+flex-direction: column;
 align-items: flex-start;
 padding: 70px;
 gap: 33px;
@@ -956,7 +950,7 @@ height: 966px;
     height: 1110px;
     margin-top: 40px;
     border-radius: 30px;
-    flex-direction: column;
+    
     }    
 }
 
@@ -1106,4 +1100,23 @@ line-height: 28.4px;
            }
     }
     
-    
+.forma-wrapper-container{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+
+height: 104px;
+}
+
+@media (max-width: 480px) {
+ .forma-wrapper-container{
+    display: contents;
+ }
+}
+@media (max-width: 768px) {
+    .forma-wrapper-container{
+       display: contents;
+    }
+   }
