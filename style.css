@@ -351,7 +351,7 @@ flex: none;
     border-radius: 10px;
     }
   
-    @media(max-width: 480px) and (pointer: fine){
+    @media screen and (pointer: fine){
     .welcome-btn:hover,
     .welcome-btn:active{
      display: none;
@@ -1264,7 +1264,19 @@ background: #F4F0E9;
     height: 132px;
  }
 }     
+@media(max-width: 768px) and (pointer: fine){
+    .comment:hover,
+    .comment:focus{
+    display: none;
+    }
+}
 
+@media(max-width: 480px) and (pointer: fine){
+    .comment:hover,
+    .comment:focus{
+        display: none;
+    }
+}
 
 .radio_wrapper{
 display: flex;
