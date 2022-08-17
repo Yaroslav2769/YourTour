@@ -8,12 +8,6 @@ button {
     border: none;
   }
 
-  input{
-    -webkit-appearance:none;
-    -moz-appearance:none;
-    -o-appearance:none;
-     appearance:none;  
-  }
 
   select {
     -webkit-appearance:none;
@@ -1417,9 +1411,10 @@ height: 28px;
 
 
 .radio_input{
--webkit-appearance: none;
--moz-appearance: none;
-appearance: none;
+-webkit-appearance:none;
+-moz-appearance:none;
+-o-appearance:none;
+appearance:none;  
 }
 
 .btn__check{
