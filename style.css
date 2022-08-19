@@ -2294,13 +2294,13 @@ margin-top: 100px;
 @media(max-width: 1600px){
     .photo-wrapper{
         gap: 20px;
-       
+        height: 301px;
 }
 }
 
 
 @media(max-width: 768px){
-    .photo-wrapper{
+    ..photo-wrapper{
         gap: 18px;
         height: 110px;
         margin-top: 50px;
@@ -2439,7 +2439,7 @@ height: 300px;
 
 
 @media(max-width: 1600px){
-    .photo-wrapper{
+    .photo-wrapper-fri{
         gap: 20px;
        
 }
