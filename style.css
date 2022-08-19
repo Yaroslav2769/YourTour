@@ -1883,7 +1883,7 @@ height: 232px;
     }
 }
 
-.reviews-description{
+.description-reviews{
  font-size: 20px;
  line-height: 28.4px;
  text-align: center;
@@ -1891,7 +1891,7 @@ height: 232px;
  width: 418px;   
 }
 @media(max-width: 768px){
-    .reviews-description{
+    .description-reviews{
       font-size: 16px;
       line-height: 22.72px;
       width: 318px;
@@ -1899,7 +1899,7 @@ height: 232px;
 }
 
 @media(max-width: 480px){
-    .reviews-description{
+    .description-reviews{
       font-size: 16px;
       line-height: 22.72px;
       width: 318px;
