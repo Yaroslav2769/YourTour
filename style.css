@@ -1856,7 +1856,6 @@ height: 232px;
 @media(max-width: 480px){
     .wrapper-content-reviews{
         height: 142px;
-        padding: 0px 21px;
         gap: 20px;
     }
 }
@@ -1883,6 +1882,35 @@ height: 232px;
         letter-spacing: 0.02em;
     }
 }
+
+.reviews-description{
+ font-size: 20px;
+ line-height: 28.4px;
+ text-align: center;
+ color: #A6A6A6; 
+ width: 418px;   
+}
+@media(max-width: 768px){
+    .reviews-description{
+      font-size: 16px;
+      line-height: 22.72px;
+      width: 318px;
+    }
+}
+
+@media(max-width: 480px){
+    .reviews-description{
+      font-size: 16px;
+      line-height: 22.72px;
+      width: 318px;
+    }
+}
+
+
+
+
+
+
 
 .cards-reviews-wrap{
 display: flex;
@@ -2120,14 +2148,14 @@ color: #A6A6A6;
     margin-top: 135px;
     height: 1222px;
     padding: 0px;
-    gap: 100px;
+   
 }
 
 @media(max-width: 768px){
     .travel{
         margin-top: 75px;
         height: 558px;
-        gap: 50px;
+        
     }
 }
 
@@ -2135,7 +2163,7 @@ color: #A6A6A6;
     .travel{
     margin-top: 75px;
     height: 558px;
-    gap: 100px;
+   
     }
     
 }
@@ -2154,13 +2182,13 @@ color: #A6A6A6;
 
 @media(max-width: 768px){
     .container-travel{
-        width: 318px;
+        width: 320px;
     }
 }
 
 @media(max-width: 480px){
     .container-travel{
-        width: 318px;
+        width: 320px;
     }
 }
 
@@ -2187,7 +2215,6 @@ height: 159px;
     .travel-wrap-content{
         height: 142px;
         gap: 20px;
-        padding: 0px 21px;
     }
 }  
 
@@ -2195,7 +2222,6 @@ height: 159px;
     .travel-wrap-content{
         height: 142px;
         gap: 20px;
-        padding: 0px 21px;
     }
 }
 
@@ -2236,18 +2262,17 @@ height: 159px;
     .description{
         font-size: 16px;
         line-height: 22.72px;
-       width: 318px;
-       height: 46px;
+        width: 318px;
     }
 
 }
 
 @media(max-width: 480px){
     .description{
-        width: 318px;
+       width: 318px;
         font-size: 16px;
         line-height: 22.72px;
-        height: 46px;
+        
         
     }
 
@@ -2300,7 +2325,7 @@ margin-top: 100px;
 
 
 @media(max-width: 768px){
-    ..photo-wrapper{
+    .photo-wrapper{
         gap: 18px;
         height: 110px;
         margin-top: 50px;
