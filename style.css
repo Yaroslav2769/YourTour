@@ -2414,7 +2414,7 @@ height: 300px;
 
 @media(max-width: 768px){
     .photo-wrapper-two{
-        gap: 18px;
+        gap: 10px;
         height: 110px;
      
 }
@@ -2423,7 +2423,7 @@ height: 300px;
 
 @media(max-width: 480px){
     .photo-wrapper-two{
-        gap: 18px;
+        gap: 10px;
         height: 110px;
 }
 }
