@@ -16,72 +16,7 @@ button {
     -o-appearance:none;
      appearance:none; 
   }
-  .str{
-    position: absolute;
-    margin-top: 65px;
-    margin-left: 458px;
-   }
-   @media(max-width: 1600px){
-    .str{
-    margin-top: 65px;
-    margin-left: 346px; 
-    }
-   }
-   @media(max-width: 480px){
-    .str{
-    margin-top: 50px;
-    margin-left: 250px; 
-    width: 13px;
-    }
-   }
-   @media(max-width: 768px){
-    .str{
-    margin-top: 50px;
-    margin-left: 246px; 
-    
-    }
-   }
-
-  .payments{
-    font-weight: 700;
-    font-size: 23px;
-    line-height: 28.06px;
-    color: #fff;
-  } 
   
-  @media(max-width: 480px){
-    .payments{
-        font-size: 16px;
-        line-height: 22.72px;
-    }
-  }
-  @media(max-width: 768px){
-    .payments{
-        font-size: 16px;
-        line-height: 22.72px;
-    }
-  }
-
-  .vector-card{
-    width: 22px;
-    height: 15px;
-    
-  }
-.email-last{
-font-weight: 400;
-font-size: 20px;
-line-height: 28.4px;
-text-decoration: none;
-color: #000;
-}
-
-.email-last:hover{
-    text-decoration-line: underline;
-}
-.email-last:active{
-    color: #286562;
-}
-
 
 *{
 box-sizing: border-box;
@@ -245,11 +180,7 @@ color: #fff;
     gap: 50px;
     height: 743px; 
 }
-/* @media (max-width: 1600px){
-    .welcome-content-wrap{
-   
-    }
-} */
+
 @media (max-width: 768px){
     .welcome-content-wrap{
     gap: 40px;
@@ -376,11 +307,9 @@ flex: none;
     border-radius: 10px;
     }
   
-    @media (max-width: 480px) and (pointer: fine){
+    @media screen and (pointer: fine){
     .welcome-btn:hover,
-    .welcome-btn:active{
-     display: none;
-      }
+    .welcome-btn:active{}
      }
 /* MAIN */
 
@@ -884,8 +813,37 @@ height: 28px;
   .cards:hover .rgb{
     display: none;
  }
-
 }
+
+.payments{
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28.06px;
+    color: #fff;
+  } 
+  
+  @media(max-width: 480px){
+    .payments{
+        font-size: 16px;
+        line-height: 22.72px;
+    }
+  }
+  @media(max-width: 768px){
+    .payments{
+        font-size: 16px;
+        line-height: 22.72px;
+    }
+  }
+
+  .vector-card{
+    width: 22px;
+    height: 15px;
+}
+
+
+
+
+
     /* /=============TOUR =================/ */
  .wrap-tour{
   margin-top: 135px;
@@ -1090,7 +1048,31 @@ height: 74px;
  }
 }
 
-
+.str{
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 458px;
+   }
+   @media(max-width: 1600px){
+    .str{
+    margin-top: 65px;
+    margin-left: 346px; 
+    }
+   }
+   @media(max-width: 480px){
+    .str{
+    margin-top: 50px;
+    margin-left: 250px; 
+    width: 13px;
+    }
+   }
+   @media(max-width: 768px){
+    .str{
+    margin-top: 50px;
+    margin-left: 246px; 
+    
+    }
+}
     
     
 
@@ -1154,6 +1136,7 @@ background: #F4F0E9;
         display: none;
     }
 }
+
 
 
 
@@ -1791,13 +1774,11 @@ border-radius: 10px;
 .big-button:active{
     background: #D9DFDB;
 }
-@media(max-width: 768px) and (pointer: fine){
+@media screen and (pointer: fine) {
     .big-btn:hover,
     .big-btn:active,
     .big-btn:hover,
-    .big-btn:active{
-        display: none;
-    }
+    .big-btn:active{}
 }
 
 
@@ -3188,6 +3169,31 @@ letter-spacing: 0.04em;
         text-align: center;
     }
 }
+
+.email-last{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28.4px;
+    text-decoration: none;
+    color: #000;
+    }
+    
+    @media(max-width: 768px){
+        .email-last{
+            font-size: 16px;
+            line-height: 22.72px;
+        }
+    }
+    
+    
+    .email-last:hover{
+        text-decoration-line: underline;
+    }
+    .email-last:active{
+        color: #286562;
+    }
+
+
 
 .footer-end{
     margin-top: 135px;
