@@ -16,7 +16,11 @@ button {
     -o-appearance:none;
      appearance:none; 
   }
-  
+  @media(max-width: 480px){
+   *:hover{
+    display: none;
+  }
+  }
 
 *{
 box-sizing: border-box;
@@ -308,9 +312,17 @@ flex: none;
     }
   
     @media screen and (pointer: fine){
-    .welcome-btn:hover,
-    .welcome-btn:active{}
+    .welcome-btn:hover{
+        background: #F8E6BE;
+        border-radius: 10px;
+    }
+    .welcome-btn:active{
+        background: #EFA501;
+        border-radius: 10px;
+    }
      }
+
+     
 /* MAIN */
 
 .wrap-main{
