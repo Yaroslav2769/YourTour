@@ -502,7 +502,7 @@ padding: 0px;
 gap: 30px;
 width: 1170px;
 height: 1092px;
-margin-top: 100px;
+
 }
 @media(max-width: 1600px){
     .cards-list-wrap{
@@ -515,7 +515,7 @@ margin-top: 100px;
     .cards-list-wrap{
         width: 318px;
         height: 1998px;
-       margin-top: 50px;
+      
     }
  }
 
@@ -526,7 +526,7 @@ margin-top: 100px;
     .cards-list-wrap{
         width: 318px;
         height: 1998px;
-       margin-top: 50px;
+
     }
  }
 
@@ -539,6 +539,7 @@ padding: 0px;
 gap: 30px;
 height: 1092px;
 flex-wrap: wrap;
+margin-top: 100px;
 }
 @media (max-width: 1600px) {
     .cards-wrap{
@@ -552,6 +553,7 @@ flex-wrap: wrap;
     .cards-wrap{
         height: 1998px;
         gap: 18px;
+        margin-top: 50px;
     }
     
 }
@@ -560,6 +562,7 @@ flex-wrap: wrap;
     .cards-wrap{
         height: 1998px;
         gap: 18px;
+        margin-top: 50px;
     }
     
 }
@@ -570,6 +573,7 @@ flex-wrap: wrap;
     height: 531px;
     border-radius: 50px;
     position: relative;
+    overflow: hidden;
 }
 
 @media(max-width: 1600px){
@@ -629,8 +633,8 @@ height: inherit;
 
 
 .cards-fon{
-    width: 370px;
-    height: 531px;
+    width: inherit;
+    height: inherit;
     border-radius: 50px;
     position: absolute;
     object-fit: cover;
@@ -640,6 +644,7 @@ height: inherit;
 .cards:hover .cards-fon{
     transform: scale(1.2);
 }
+
 @media(max-width: 1600px){
     .cards-fon{
         width: 450px;
@@ -672,12 +677,9 @@ height: inherit;
     height: 531px;
     border-radius: 50px;
     position: absolute;
-    transform: scale(1);
-    transition: 300ms ease; 
+    
 }
-.cards:hover .rgb{
-    transform: scale(1.2);
-}
+
 @media(max-width: 1600px){
     .rgb{
         width: 450px;
@@ -800,11 +802,9 @@ width: 159px;
 height: 28px; 
 }
 .cards:hover .cards-btn{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+
     padding: 7px 20px;
-    gap: 15px;
+
     position: absolute;
     width: 199px;
     height: 42px;
@@ -814,12 +814,19 @@ height: 28px;
     border-radius: 50px;
 }
 
+.cards:active .cards-btn{
+    background: #EFA501;
+border-radius: 50px;
+}
+
+
 @media(max-width: 480px) and (pointer: fine){
  .cards:hover .cards-fon,
   .cards:hover .rgb{
     display: none;
  }
 }
+
 
 .payments{
     font-weight: 700;
@@ -1605,7 +1612,7 @@ height: 26px;
         line-height: 22.72px;
         height: 69px;
         width: 248px;
-        padding-left: 15px;
+      
     }
 }
 
@@ -1780,14 +1787,7 @@ border-radius: 10px;
 .big-button:active{
     background: #D9DFDB;
 }
-@media screen and (pointer: fine) {
-    .big-btn:hover,
-    .big-btn:active,
-    .big-btn:hover,
-    .big-btn:active{
-        display: none;
-    }
-}
+
 
 
 @media(max-width: 480px) and (pointer: fine){
@@ -2663,6 +2663,7 @@ margin-top: 100px;
     height: 567px;
     border-radius: 50px;
     position: relative;
+    overflow: hidden;
 }
 
 @media(max-width: 1600px){
@@ -2695,6 +2696,14 @@ margin-top: 100px;
     transform: matrix(-1, 0, 0, 1, 0, 0);
     position: absolute;
     object-fit: cover;
+    transform: scale(1);
+    transition: 300ms ease;
+}
+
+.cards-stories:hover .stories-fon{
+transform: scale(1.2);
+
+
 }
 
 @media(max-width: 768px){
@@ -2719,7 +2728,6 @@ margin-top: 100px;
 
 
 .gradient{
-   
 background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%);
     width: 1170px;
     height: 567px;
@@ -3016,7 +3024,20 @@ height: 28px;
     }
 }
 
+.cards-stories:hover .cards-btn{
+padding: 7px 20px;
+width: 199px;
+height: 42px;
+left: 40px;
+top: 472px;
+background: #286562;
+border-radius: 50px;
+}
 
+.cards-stories:active .cards-btn:active{
+background: #EFA501;
+border-radius: 50px;
+}
 /* LAST */
 
 
