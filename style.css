@@ -122,11 +122,21 @@ font-size: 20px;
 line-height: 28.4px;
 flex: none;
 }
+
+@media (max-width: 768px){
+    .phone{
+        font-size: 16px;
+        line-height: 22.72px;
+        color: #fff;
+    }
+}
+
 @media (max-width: 480px){
     .phone{
         font-size: 16px;
         line-height: 22.72px;
         color: #fff;
+        text-decoration: none;
     }
 }
 
@@ -2213,7 +2223,7 @@ color: #A6A6A6;
 
 .container-travel{
     margin: 0 auto;
-    width: 1860px;
+    width: 100%;
 }
 @media(max-width: 1600px){
     .container-travel{
@@ -2332,7 +2342,7 @@ height: 963px;
 
 /* @media(max-width: 1600px){
     .wrap-travel{
-      
+   
     }
 } */
 
