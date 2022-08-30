@@ -87,7 +87,7 @@ padding-top: 29px;
 
 @media(max-width: 480px){
     .container{
-        width: 320px;
+        width: 100vw;
     }
     .logo{
         width: 133px;
@@ -121,14 +121,14 @@ padding-top: 29px;
    @media(max-width: 768px){
     .header{
      justify-content: space-between;
-     margin: 0 5%;
+     margin: 0 6%;
     }
 }
 
 @media(max-width: 480px){
     .header{
      justify-content: space-between;
-     margin: 0 5%;
+     margin: 0 6%;
     }
 }
 
@@ -390,7 +390,7 @@ padding: 0px;
 }
 @media(max-width: 1600px){
     .container-main{
-     width: 100vw;
+     width: 920px;
      
     }
  }
@@ -3296,14 +3296,14 @@ letter-spacing: 0.04em;
 
 @media(max-width: 768px){
     .container-footer{
-        width: 314px;
+        width: 100vw;
         padding-top: 21px;
     }
 }
 
 @media(max-width: 480px){
     .container-footer{
-        width: 314px;
+        width: 100vw;
         padding-top: 21px;
     }
 }
@@ -3335,6 +3335,7 @@ letter-spacing: 0.04em;
         justify-content: center;
         align-items: center;
         gap: 7px;
+      margin: 0 6%;
     }
 }
 
