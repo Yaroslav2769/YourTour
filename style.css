@@ -115,19 +115,26 @@ padding-top: 29px;
 
 .header{
     display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  margin: 0;
    }
+
+   @media(max-width: 1600px){
+    .header{
+     margin: 0 5%;
+    }
+}
+
 
    @media(max-width: 768px){
     .header{
-     justify-content: space-between;
      margin: 0 6%;
     }
 }
 
 @media(max-width: 480px){
     .header{
-     justify-content: space-between;
+    
      margin: 0 6%;
     }
 }
@@ -2251,24 +2258,24 @@ color: #A6A6A6;
 
 .container-travel{
     margin: 0 auto;
-    width: 100%;
+    width: 100vw;
 }
 @media(max-width: 1600px){
     .container-travel{
-        width: 984px;
+        width: 100vw;
     }
 }
 
 @media(max-width: 768px){
     .container-travel{
-        width: 320px;
+        width: 100vw;
         padding: 0px;
     }
 }
 
 @media(max-width: 480px){
     .container-travel{
-        width: 320px;
+        width: 100vw;
         padding: 0px;
     }
 }
@@ -2365,25 +2372,29 @@ display: flex;
 flex-direction: column;
 align-items: flex-start;
 gap: 30px;
+margin-top: 100px;
 height: 963px;
 }
 
-/* @media(max-width: 1600px){
+@media(max-width: 1600px){
     .wrap-travel{
-   
+ 
+        
     }
-} */
+}
 
 @media(max-width: 768px){
     .wrap-travel{
         gap: 18px;
         height: 366px;
+        margin-top: 50px;
     }
 }
 @media(max-width: 480px){
     .wrap-travel{
         height: 366px;
         gap: 18px;
+        margin-top: 50px;
     }
 }
 
@@ -2391,16 +2402,18 @@ height: 963px;
 display: flex;
 flex-direction: row;
 align-items: flex-start;
-padding: 0px;
 gap: 30px;
+width: 100vw;
 height: 301px;
-margin-top: 100px;
+padding: 0 1.56%;
 }
 
 @media(max-width: 1600px){
     .photo-wrapper{
         gap: 20px;
         height: 301px;
+        width: 100vw;
+        justify-content: center;
 }
 }
 
@@ -2409,7 +2422,8 @@ margin-top: 100px;
     .photo-wrapper{
         gap: 18px;
         height: 110px;
-        margin-top: 50px;
+        width: 100vw;
+       padding: 0 5.83%;
 }
 }
 
@@ -2418,19 +2432,21 @@ margin-top: 100px;
     .photo-wrapper{
         gap: 18px;
         height: 110px;
-        margin-top: 50px;
+        width: 100vw;
+        padding: 0 5.83%;
 }
 }
 
 .travel-photo{
 border-radius: 50px;
-
-height: 300px; 
+width: 23.04%;
+height: 300px;
+flex-grow: 1; 
 }
 
 @media(max-width: 1600px){
     .travel-photo{
-        width: 314.67px;
+        width: 30.73%;
     }
 
     .hidden{
@@ -2441,7 +2457,7 @@ height: 300px;
 
 @media(max-width: 768px){
     .travel-photo{
-        width: 150px;
+        width: 41.66%;
         height: 110px;
         border-radius: 20px;
     }
@@ -2454,7 +2470,7 @@ height: 300px;
 
 @media(max-width: 480px){
     .travel-photo{
-        width: 150px;
+        width: 41.66%;
         height: 110px;
         border-radius: 20px;
     }
@@ -2470,15 +2486,16 @@ height: 300px;
 .travel-photo-two{
     height: 301px;
     border-radius: 50px;
-    width: 349px;
     object-fit: cover;
+    width: 18.18%;
 }
 
 
 @media(max-width: 1600px){
     .travel-photo-two{
-       width: 231px;
+       width: 22.56%;
        height: 301px;
+       flex-grow: 1;
       
 }
 }
@@ -2486,7 +2503,7 @@ height: 300px;
 
 @media(max-width: 768px){
     .travel-photo-two{
-        width: 99.33px;
+        width: 27.6%;
         height: 110px;
         border-radius: 20px;
      
@@ -2496,13 +2513,47 @@ height: 300px;
 
 @media(max-width: 480px){
     .travel-photo-two{
-        width: 99.33px;
+        width: 27.6%;
         height: 110px;
         border-radius: 20px;
 }
 }
 
+.travel-photo-img{
+    height: 301px;
+    border-radius: 50px;
+    flex-grow: 1;
+    object-fit: cover;
+    width: 18.08%;
+}
 
+@media(max-width: 1600px){
+    .travel-photo-img{
+       width: 22.56%;
+       height: 301px;
+      
+}
+}
+
+
+@media(max-width: 768px){
+    .travel-photo-img{
+        width: 27.6%;
+        height: 110px;
+        border-radius: 20px;
+     
+}
+}
+
+
+@media(max-width: 480px){
+    .travel-photo-img{
+        width: 27.6%;
+        height: 110px;
+        border-radius: 20px;
+      
+}
+}
 
 
 .photo-wrapper-two{
@@ -2512,13 +2563,16 @@ height: 300px;
     padding: 0px;
     gap: 30px;
     height: 301px;
+    width: 100vw;
+    padding: 0 1.56%;
 }
 
 @media(max-width: 1600px){
     .photo-wrapper-two{
         gap: 20px;
         height: 301px;
-      
+        justify-content: center;
+        padding: 0 1.95%;
 }
 }
 
@@ -2527,7 +2581,7 @@ height: 300px;
     .photo-wrapper-two{
         gap: 10px;
         height: 110px;
-     
+        padding: 0 5.83%
 }
 }
 
@@ -2536,6 +2590,7 @@ height: 300px;
     .photo-wrapper-two{
         gap: 10px;
         height: 110px;
+        padding: 0 5.83%
 }
 }
 
@@ -2546,12 +2601,16 @@ height: 300px;
     padding: 0px;
     gap: 30px;
     height: 301px;
+    width: 100vw;
+    padding: 0 1.56%;
 }
 
 
 @media(max-width: 1600px){
     .photo-wrapper-fri{
         gap: 20px;
+        justify-content: center;
+        padding: 0 1.95%;
        
 }
 }
@@ -2561,7 +2620,7 @@ height: 300px;
     .photo-wrapper-fri{
         gap: 10px;
         height: 110px;
-       
+        padding: 0 5.83%;
 }
 }
 
@@ -2570,7 +2629,7 @@ height: 300px;
     .photo-wrapper-fri{
         gap: 10px;
         height: 110px;
-        
+        padding: 0 5.83%;
 }
 }
 
@@ -3349,6 +3408,7 @@ letter-spacing: 0.04em;
 @media(max-width: 768px){
     .social-footer-wrap{
         gap: 15px;
+        margin-left: 0;
     }
 }
 
