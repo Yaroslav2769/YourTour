@@ -62,7 +62,7 @@ background-position: center;
 background-size: cover;
 height: 831px;
 position: relative;
-padding-top: 29px;
+padding-top: 30px;
 width: 100vw;
 }
 
@@ -81,6 +81,7 @@ width: 100vw;
     }
     .welcome{
         height: 488px;
+        padding-top: 33px;
     }
   
 
@@ -96,6 +97,7 @@ width: 100vw;
     }
     .welcome{
         height: 488px;
+        padding-top: 33px;
     }
   
 }
@@ -195,26 +197,24 @@ color: #fff;
 .welcome-content-wrap{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding: 0px;
     gap: 50px;
-    height: 743px; 
-    /* width: 100vw; */
+    margin-top: 145px;
 }
 
 
 @media (max-width: 915px){
     .welcome-content-wrap{
     gap: 40px;
-   height: 400px;
+    margin-top: 85px;
     }
 }
 
 @media (max-width: 480px){
     .welcome-content-wrap{
     gap: 40px;
-   height: 400px;
+    margin-top: 85px;
     }
 }
 
