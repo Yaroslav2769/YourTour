@@ -335,20 +335,20 @@ flex: none;
 
     @media (max-width: 915px) and (pointer: fine) {
         .welcome-btn:hover{
-           visibility: hidden;
+           visibility: visible;
         }
         .welcome-btn:active{
-            visibility: hidden;
+            visibility: visible;
         }
     }
     
   
     @media (max-width: 480px) and (pointer: fine) {
     .welcome-btn:hover{
-       visibility: hidden;
+       visibility:visible;
     }
     .welcome-btn:active{
-        visibility: hidden;
+        visibility: visible
     }
 }
 
@@ -520,13 +520,21 @@ line-height: 28.06px;
 .velo:hover{
     border-bottom: 2px solid #000;
 }
+@media (max-width: 915px) and (pointer: fine){
+    .avtor:hover,
+    .hiking:hover,
+    .alloys:hover,
+    .velo:hover{
+        visibility: visible;
+    }
+    }
 
 @media (max-width: 480px) and (pointer: fine){
 .avtor:hover,
 .hiking:hover,
 .alloys:hover,
 .velo:hover{
-    display: none;
+    visibility: visible;
 }
 }
 
@@ -854,12 +862,17 @@ height: 28px;
     background: #EFA501;
 border-radius: 50px;
 }
-
+@media(max-width: 915px) and (pointer: fine){
+    .cards:hover .cards-fon,
+     .cards:hover .rgb{
+       visibility: visible;
+    }
+   }
 
 @media(max-width: 480px) and (pointer: fine){
  .cards:hover .cards-fon,
   .cards:hover .rgb{
-    display: none;
+    visibility: visible;
  }
 }
 
@@ -1175,14 +1188,14 @@ background: #F4F0E9;
 @media(max-width: 915px) and (pointer: fine){
     .forma:hover,
     .forma:focus{
-    display: none;
+    visibility: visible;
     }
 }
 
 @media(max-width: 480px) and (pointer: fine){
     .forma:hover,
     .forma:focus{
-        display: none;
+        visibility: visible;
     }
 }
 
@@ -1690,14 +1703,14 @@ height: 26px;
 @media (max-width: 915px) and (pointer: fine){
     .text-lic:hover,
     .text-lic:active{
-        display: none;
+        visibility: visible;
     }
 }
 
 @media (max-width: 480px) and (pointer: fine){
     .text-lic:hover,
     .text-lic:active{
-        display: none;
+        visibility: visible;
     }
 }
 
@@ -2987,6 +3000,7 @@ z-index: 2;
     z-index: 2;  
     margin-top: 479px;  
     width: 1170px;
+    height: 88px;
 }
 
 @media(max-width: 1600px){
@@ -3068,12 +3082,15 @@ z-index: 2;
     }
 }
 
-.stories-fon-two{
+/* .stories-fon-two{
     width: inherit;
     height: inherit;
     border-radius: 50px;
     position: absolute;
     object-fit: cover;
+    transform: scale(1);
+    transition: 300ms ease;
+
 }
 
 @media(max-width: 915px){
@@ -3086,7 +3103,7 @@ z-index: 2;
     .stories-fon-two{
         border-radius: 20px;
     }
-}
+} */
 
 
 .cards-social-two{
