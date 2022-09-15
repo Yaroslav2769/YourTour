@@ -107,13 +107,13 @@ width: 100vw;
 
 
 .header{
-    display: flex;
-  justify-content: space-between;
-  margin: 0;
-   }
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0;
+}
 
-
-   @media(max-width: 915px){
+@media(max-width: 915px){
     .header{
      margin: 0 6%;
     }
@@ -128,12 +128,16 @@ width: 100vw;
 
 
 .phone{
-align-self: center;
 color: #fff;
 font-weight: 400;
 font-size: 20px;
 line-height: 28.4px;
 flex: none;
+height: 28px;
+}
+
+.phone:hover{
+    border-bottom: 1px solid #fff;
 }
  
 
@@ -158,16 +162,11 @@ flex: none;
 .nav-list{
 display: flex;
 gap: 50px;
-align-items: center;
+height: 28px;
 }
 @media(max-width: 1600px){
     .nav-list{
     gap: 30px;
-}
-}
-@media(max-width: 480px){
-    .nav-list{
-    display: none;
 }
 }
 
@@ -176,6 +175,14 @@ align-items: center;
     display: none;
 }
 }
+
+@media(max-width: 480px){
+    .nav-list{
+    display: none;
+}
+}
+
+
 
 
 
@@ -317,19 +324,31 @@ flex: none;
 .welcome-btn:hover{
     background: #EFA501;
     border-radius: 10px;
+    color: #fff;
     }
     
 .welcome-btn:active{
     background: #F8E6BE;
     border-radius: 10px;
+    color: #000;
     }
+
+    @media (max-width: 915px) and (pointer: fine) {
+        .welcome-btn:hover{
+           visibility: hidden;
+        }
+        .welcome-btn:active{
+            visibility: hidden;
+        }
+    }
+    
   
     @media (max-width: 480px) and (pointer: fine) {
     .welcome-btn:hover{
-        display: none;
+       visibility: hidden;
     }
     .welcome-btn:active{
-        display: none;
+        visibility: hidden;
     }
 }
 
@@ -3345,6 +3364,7 @@ letter-spacing: 0.04em;
 
 .footer{
     display: flex;
+    align-items: center;
 }
 @media(max-width: 1600px){
     .footer{
@@ -3375,19 +3395,22 @@ letter-spacing: 0.04em;
    display: flex;
    gap: 25px;
    margin-left: auto;
-   align-items: center;
+ 
+   height: 28px;
 }
 
 @media(max-width: 915px){
     .social-footer-wrap{
         gap: 15px;
         margin-left: 0;
+        height: 23px;
     }
 }
 
 @media(max-width: 480px){
     .social-footer-wrap{
         gap: 15px;
+        height: 23px;
     }
 }
 
