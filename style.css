@@ -1533,7 +1533,7 @@ background-repeat: no-repeat;
 
 .btn__check{
     width: 20px;
-    height: 20px;
+    height: 21px;
     background-image: url(./files/off-mobile-rad.svg);
  }
 
@@ -1550,7 +1550,7 @@ background-repeat: no-repeat;
     }
 .btn__check{
     width: 20px;
-    height: 20px;
+    height: 21px;
     background-image: url(./files/off-mobile-rad.svg);
  }
 
@@ -2752,6 +2752,7 @@ margin-top: 100px;
     border-radius: 50px;
     position: relative;
     overflow: hidden;
+    
 }
 
 @media(max-width: 1600px){
@@ -2781,11 +2782,11 @@ margin-top: 100px;
     width: inherit;
     height: inherit;
     border-radius: 50px;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
     position: absolute;
     object-fit: cover;
     transform: scale(1);
     transition: 300ms ease;
+
 }
 
 .cards-stories:hover .stories-fon{
