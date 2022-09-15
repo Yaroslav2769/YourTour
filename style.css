@@ -345,10 +345,10 @@ flex: none;
   
     @media (max-width: 480px) and (pointer: fine) {
     .welcome-btn:hover{
-       visibility:visible;
+       background: none;
     }
     .welcome-btn:active{
-        visibility: visible
+       background: none;
     }
 }
 
