@@ -16,10 +16,16 @@ button {
     -o-appearance:none;
      appearance:none; 
   }
+option{
+    color: #000;
+}
+
+
 
 
 *{
 box-sizing: border-box;
+cursor: pointer;
 }
 
   @font-face {
@@ -111,6 +117,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 margin: 0;
+
 }
 
 @media(max-width: 915px){
@@ -687,10 +694,12 @@ height: inherit;
     position: absolute;
     object-fit: cover;
     transform: scale(1);
-    transition: 300ms ease;   
+    transition: 300ms ease; 
+  
 }
 .cards:hover .cards-fon{
     transform: scale(1.2);
+   
 }
 
 @media(max-width: 1600px){
@@ -1153,14 +1162,51 @@ height: 68px;
 background: #F9F7F4;
 border: 1px solid #F4F0E9;
 border-radius: 10px;
+
 }
+
+select{
+    padding: 20px;
+    gap: 10px;
+    width: 500px;
+    height: 68px;
+    background: #F9F7F4;
+    border: 1px solid #F4F0E9;
+    border-radius: 10px;
+    
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28.4px;
+    color: #A6A6A6;
+    }
+    
+    select:hover{
+        background: #F4F0E9;
+        border: 1px solid #F4F0E9;
+        }
+    
+[data-selected] {
+    color: #000;
+}
+
+
 @media(max-width: 1600px){
+select{
+        width: 389px;
+    }
+
 .forma{
     width: 389px;
 }
 }
 
 @media(max-width: 915px){
+    select{
+        padding: 10px;
+        width: 278px;
+        height: 43px;
+    }
+
     .forma{
         padding: 10px;
         width: 278px;
@@ -1170,6 +1216,12 @@ border-radius: 10px;
 
 
 @media(max-width: 480px){
+
+    select{
+        padding: 10px;
+        width: 278px;
+        height: 43px;
+    }
     .forma{
         padding: 10px;
         width: 278px;
@@ -1181,12 +1233,13 @@ border-radius: 10px;
 
 .forma:hover{
 background: #F4F0E9;
-
+border: 1px solid #F4F0E9;
 }
 .forma:focus{
     background: #F4F0E9;
     border: 1px solid #A6A6A6
-    }
+}
+
     
 
 @media(max-width: 915px) and (pointer: fine){
@@ -1233,15 +1286,9 @@ line-height: 28.4px;
     color: #A6A6A6;
 }
 
-  .select-text{
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28.4px;
-    color: #A6A6A6;
-    }
 
 @media(max-width: 915px){
-.select-text{
+select{
     font-size: 16px;
     line-height: 22.72px;
  }
@@ -1257,7 +1304,7 @@ line-height: 28.4px;
 
     
 @media(max-width: 480px){
-.select-text{
+select{
     font-size: 16px;
     line-height: 22.72px;
     }
@@ -1323,9 +1370,6 @@ height: 188px;
         
 
 .comment{
-display: flex;
-flex-direction: row;
-align-items: center;
 padding: 20px;
 gap: 10px;
 width: 1030px;
@@ -1387,6 +1431,7 @@ padding: 0px;
 gap: 30px;
 width: 1030px;
 height: 64px;
+
 } 
 
 @media (max-width: 1600px){
@@ -1478,6 +1523,7 @@ padding: 0px;
 gap: 11px;
 width: 75px;
 height: 28px;
+
 }
 
 @media (max-width: 915px){
@@ -1582,6 +1628,7 @@ align-items: center;
 padding: 0px;
 gap: 19px;
 height: 26px;
+
 }
 @media(max-width: 1600px){
     .check-wrap{
@@ -1609,6 +1656,7 @@ height: 26px;
     display: flex;
     align-items: center;
     gap: 19px;
+  
 }
 
 @media(max-width: 1600px){
