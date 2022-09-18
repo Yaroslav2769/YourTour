@@ -7,15 +7,17 @@ body{
 button {
     border: none;
     background: none;
-  }
+}
 
 
-  select {
+select {
     -webkit-appearance:none;
     -moz-appearance:none;
     -o-appearance:none;
-     appearance:none; 
-  }
+    appearance:none; 
+ }
+
+
 option{
     color: #000;
 }
@@ -27,29 +29,28 @@ textarea{
 
 
 *{
-box-sizing: border-box;
-cursor: pointer;
+  box-sizing: border-box;
+  cursor: pointer;
 }
 
-  @font-face {
+@font-face {
     font-family: Robot; 
     src: url(./fonts/Roboto-Regular.woff); 
     font-weight: 400;
     font-style: normal;
-  }
+}
   
-  @font-face {
+@font-face {
     font-family: Robot; 
     src: url(./fonts/Roboto-Medium.woff); 
     font-weight: 500;
-   
-  }
+}
   
-  @font-face {
+@font-face {
     font-family: Robot; 
     src: url(./fonts/Roboto-Bold.woff); 
     font-weight: 700;
-  }
+}
 
 
 .container{
@@ -60,9 +61,8 @@ margin: 0 auto;
 @media (max-width: 1600px){
     .container{
     width: 910px;
-    }
+  }
 }
-
 
 
 .welcome{
@@ -76,51 +76,37 @@ width: 100vw;
 }
 
 
-
-  
-
 @media (max-width: 915px){
-    .container{
+.container{
     width: 100vw;
-    }
-
-    .logo{
-        width: 133px;
-
-    }
-    .welcome{
-        height: 488px;
-        padding-top: 33px;
-    }
-  
-
-    }
-
-@media(max-width: 480px){
-    .container{
-        width: 100vw;
-    }
-    .logo{
-        width: 133px;
-
-    }
-    .welcome{
-        height: 488px;
-        padding-top: 33px;
-    }
-  
+  }
+.logo{
+    width: 133px;
+  }
+.welcome{
+    height: 488px;
+    padding-top: 33px;
+  }
 }
 
-
-
-
+@media(max-width: 480px){
+.container{
+    width: 100vw;
+  }
+.logo{
+    width: 133px;
+  }
+.welcome{
+    height: 488px;
+    padding-top: 33px;
+  }  
+}
 
 .header{
 display: flex;
 justify-content: space-between;
 align-items: center;
 margin: 0;
-
 }
 
 @media(max-width: 915px){
@@ -153,19 +139,18 @@ height: 28px;
 
 @media (max-width: 915px){
     .phone{
-        font-size: 16px;
-        line-height: 22.72px;
-        color: #fff;
+    font-size: 16px;
+    line-height: 22.72px;
+    color: #fff;
     }
 }
 
 @media (max-width: 480px){
     .phone{
-        font-size: 16px;
-        line-height: 22.72px;
-        color: #fff;
-        text-decoration: none;
-        
+    font-size: 16px;
+    line-height: 22.72px;
+    color: #fff;
+    text-decoration: none;
     }
 }
 
@@ -193,10 +178,6 @@ height: 28px;
 }
 
 
-
-
-
-
 .nav-item{
 font-size: 20px;
 font-weight: 400;
@@ -208,7 +189,6 @@ color: #fff;
 .nav-item:hover{
     border-bottom: 1px solid #ffffff;
 }
-
 
 
 .welcome-content-wrap{
@@ -272,27 +252,19 @@ border-radius: 10px;
     background: #EFA501;
     border-radius: 10px;
     color: #fff;
-    }
+}
     
 .welcome-btn:active{
     background: #F8E6BE;
     border-radius: 10px;
     color: #000;
-    }
+}
 
-    @media (max-width: 915px) and (pointer: fine) {
-        .welcome-btn:hover{
-           visibility: visible;
-        }
-        .welcome-btn:active{
-            visibility: visible;
-        }
-    }
-    
-  
+
+   
     @media (max-width: 480px) and (pointer: fine) {
     .welcome-btn:hover{
-      display: none;
+      background: none;
     }
     .welcome-btn:active{
      display: none;
@@ -3605,8 +3577,3 @@ flex: none;
 }
 
 
-@media (max-width: 915px) and (pointer: fine){
-    :hover{
-        display: none;
-    }
-}
