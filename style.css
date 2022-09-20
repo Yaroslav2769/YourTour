@@ -135,13 +135,18 @@ height: 28px;
 .phone:hover{
     border-bottom: 1px solid #fff;
 }
- 
+ @media(max-width: 915px){
+    .phone:hover{
+        border-bottom: none;
+    }
+ }
 
 @media (max-width: 915px){
     .phone{
     font-size: 16px;
     line-height: 22.72px;
     color: #fff;
+    height: 23px;
     }
 }
 
@@ -151,6 +156,7 @@ height: 28px;
     line-height: 22.72px;
     color: #fff;
     text-decoration: none;
+    height: 23px;
     }
 }
 
@@ -260,16 +266,21 @@ border-radius: 10px;
     color: #000;
 }
 
-
-   
-    @media (max-width: 480px) and (pointer: fine) {
+@media(max-width: 915px){
     .welcome-btn:hover{
-      background: none;
-    }
-    .welcome-btn:active{
-     background: none;
+        background: #fff;
     }
 }
+
+@media(max-width: 480px){
+    .welcome-btn:hover{
+        background: #fff;
+        color: inherit;
+    }
+}
+   
+   
+
 
 .welcomeBtn-text{
 font-size: 17px;
@@ -334,7 +345,17 @@ font-family: Roboto;
 }
 }
 
-
+@media (max-width: 480px){
+    .welcome-btn{
+        width: 114px;
+        height: 33px;
+    }
+    .welcomeBtn-text{
+        font-size: 16px;
+        line-height: 22.72px;
+    }
+    }
+    
 
 
 
@@ -476,12 +497,14 @@ gap: 30px;
 font-weight: 700;
 font-size: 23px;
 line-height: 28.06px;
+height: 34px;
 }
 
 @media(max-width: 915px){
     .main-item{
     font-size: 16px;
     line-height: 22.72px;
+    height: 23px;
     }
  }
 
@@ -491,6 +514,7 @@ line-height: 28.06px;
     .main-item{
     font-size: 16px;
     line-height: 22.72px;
+    height: 23px;
     }
  }
 
@@ -500,28 +524,23 @@ line-height: 28.06px;
     color: #EFA501;
     border-bottom: 2px solid #EFA501;
     align-self: stretch;
+
 }
+
+
+
 .avtor:hover,
 .hiking:hover,
 .alloys:hover,
 .velo:hover{
     border-bottom: 2px solid #000;
 }
-@media (max-width: 915px) and (pointer: fine){
-    .avtor:hover,
-    .hiking:hover,
-    .alloys:hover,
-    .velo:hover{
-        visibility: visible;
-    }
-    }
-
-@media (max-width: 480px) and (pointer: fine){
+@media (max-width: 915px){
 .avtor:hover,
 .hiking:hover,
 .alloys:hover,
 .velo:hover{
-    visibility: visible;
+    border-bottom: none;
 }
 }
 
@@ -676,6 +695,18 @@ height: inherit;
 .cards:hover .cards-fon{
     transform: scale(1.2);
    
+}
+
+@media(max-width: 915px){
+    .cards:hover .cards-fon{
+        transform: scale(1);
+    }
+}
+
+@media(max-width: 480px){
+    .cards:hover .cards-fon{
+        transform: scale(1);
+    }
 }
 
 @media(max-width: 1600px){
@@ -835,7 +866,6 @@ width: 159px;
 height: 28px; 
 }
 .cards:hover .cards-btn{
-  
     padding: 7px 20px;
     position: absolute;
     width: 199px;
@@ -847,21 +877,30 @@ height: 28px;
 }
 
 .cards:active .cards-btn{
-    background: #EFA501;
+background: #EFA501;
 border-radius: 50px;
 }
-@media(max-width: 915px) and (pointer: fine){
-    .cards:hover .cards-fon,
-     .cards:hover .rgb{
-       visibility: visible;
-    }
-   }
 
-@media(max-width: 480px) and (pointer: fine){
- .cards:hover .cards-fon,
-  .cards:hover .rgb{
-    visibility: visible;
- }
+@media(max-width: 915px){
+    .cards:hover .cards-btn{
+        background: none;
+        padding: 0px;
+        height: 28px;
+        left: 0px;
+        top: 0px;
+       position: relative;
+    }
+}
+
+@media(max-width: 480px){
+    .cards:hover .cards-btn{
+        background: none;
+        padding: 0px;
+        height: 28px;
+        left: 0px;
+        top: 0px;
+       position: relative;
+    }
 }
 
 
@@ -1215,20 +1254,33 @@ border: 1px solid #F4F0E9;
     background: #F4F0E9;
     border: 1px solid #A6A6A6
 }
-
     
-
-@media(max-width: 915px) and (pointer: fine){
-    .forma:hover,
-    .forma:focus{
-    visibility: visible;
+@media(max-width: 915px){
+    select:hover{
+        background: #F9F7F4;
+        border: 1px solid #F4F0E9;
     }
 }
 
-@media(max-width: 480px) and (pointer: fine){
-    .forma:hover,
-    .forma:focus{
-        visibility: visible;
+@media(max-width: 480px){
+    select:hover{
+        background: #F9F7F4;
+        border: 1px solid #F4F0E9;
+    }
+}
+    
+@media(max-width: 915px){
+    .forma:hover{
+        background: #F9F7F4;
+        border: 1px solid #F4F0E9;
+    }
+}
+
+    
+@media(max-width: 480px){
+    .forma:hover{
+        background: #F9F7F4;
+        border: 1px solid #F4F0E9;
     }
 }
 
@@ -1385,19 +1437,21 @@ background: #F4F0E9;
     height: 132px;
  }
 }     
-@media(max-width: 915px) and (pointer: fine){
-    .comment:hover,
-    .comment:focus{
-    display: none;
+@media(max-width: 915px){
+    .comment:hover{
+        background: #F9F7F4;
+        border: 1px solid #F4F0E9;
     }
 }
 
-@media(max-width: 480px) and (pointer: fine){
-    .comment:hover,
-    .comment:focus{
-        display: none;
+@media(max-width: 480px){
+    .comment:hover{
+        background: #F9F7F4;
+        border: 1px solid #F4F0E9;
     }
 }
+
+
 
 .radio_wrapper{
 display: flex;
@@ -1711,6 +1765,19 @@ height: 26px;
     color: #286562;
     }
 
+    @media(max-width: 915px){
+        .text-lic:hover{
+            text-decoration-line: none;
+        }
+    }
+    
+    @media(max-width: 480px){
+        .text-lic:hover{
+            text-decoration-line: none;
+        }
+    }
+    
+
 @media (max-width: 915px){
     .text-lic{
         font-size: 16px;
@@ -1728,19 +1795,7 @@ height: 26px;
 }
 
 
-@media (max-width: 915px) and (pointer: fine){
-    .text-lic:hover,
-    .text-lic:active{
-        visibility: visible;
-    }
-}
 
-@media (max-width: 480px) and (pointer: fine){
-    .text-lic:hover,
-    .text-lic:active{
-        visibility: visible;
-    }
-}
 
 .check__input{
     -webkit-appearance:none;
@@ -1866,15 +1921,24 @@ border-radius: 10px;
 }
 
 
-
-@media(max-width: 480px) and (pointer: fine){
-    .big-btn:hover,
-    .big-btn:active,
-    .big-btn:hover,
-    .big-btn:active{
-        display: none;
+@media(max-width: 915px){
+    .big-btn:hover{
+        background: #286562;
+    }
+    .big-button:hover{
+        background: #E0F0E5;
     }
 }
+
+@media(max-width: 480px){
+    .big-btn:hover{
+        background: #286562;
+    }
+    .big-button:hover{
+        background: #E0F0E5;
+    }
+}
+
 
 
 @media(max-width: 915px){
@@ -2408,12 +2472,7 @@ margin-top: 100px;
 height: 963px;
 }
 
-/* @media(max-width: 1600px){
-    .wrap-travel{
- 
-        
-    }
-} */
+
 
 @media(max-width: 915px){
     .wrap-travel{
@@ -2835,6 +2894,20 @@ transform: scale(1.2);
 
 
 }
+@media(max-width: 915px){
+    .cards-stories:hover .stories-fon{
+        transform: scale(1);
+        }
+}
+
+@media(max-width: 480px){
+    .cards-stories:hover .stories-fon{
+        transform: scale(1);
+        }
+}
+
+
+
 
 @media(max-width: 915px){
     .stories-fon{
@@ -3093,6 +3166,9 @@ z-index: 2;
   }
 
 
+
+
+
   .br{
     display: none;
   }
@@ -3109,28 +3185,6 @@ z-index: 2;
     }
 }
 
-/* .stories-fon-two{
-    width: inherit;
-    height: inherit;
-    border-radius: 50px;
-    position: absolute;
-    object-fit: cover;
-    transform: scale(1);
-    transition: 300ms ease;
-
-}
-
-@media(max-width: 915px){
-    .stories-fon-two{
-        border-radius: 20px;
-    }
-}
-
-@media(max-width: 480px){
-    .stories-fon-two{
-        border-radius: 20px;
-    }
-} */
 
 
 .cards-social-two{
@@ -3171,9 +3225,22 @@ margin-left: auto;
 .cards-stories:active .cards-btn:active{
 background: #EFA501;
 border-radius: 50px;
-
 }
 
+@media(max-width: 915px){
+    .cards-stories:hover .cards-btn{
+        background: none;
+        padding: 0px;
+        height: 28px;
+        left: 0px;
+        position: static;
+    }
+    .cards-stories:active .cards-btn:active{
+        background: none;
+        
+    }
+    
+}
 
 /* LAST */
 
@@ -3359,7 +3426,18 @@ letter-spacing: 0.04em;
         color: #286562;
     }
 
+ 
+    @media(max-width: 915px){
+        .email-last:hover{
+            text-decoration-line: none;
+        }
+    }
 
+    @media(max-width: 480px){
+        .email-last:hover{
+            text-decoration-line: none;
+        }
+    }
 
 .footer-end{
     margin-top: 135px;
@@ -3500,6 +3578,17 @@ letter-spacing: 0.04em;
     border-bottom: 1px solid #000;
     
 }
+@media(max-width: 915px){
+    .social-text:hover{
+        border-bottom: none;
+    }
+}
+
+@media(max-width: 480px){
+    .social-text:hover{
+        border-bottom: none;
+    }
+}
 
 @media(max-width: 915px){
     .social-text{
@@ -3515,11 +3604,6 @@ letter-spacing: 0.04em;
         font-size: 16px;
         line-height: 22.72px;
         height: 23px;
-    }
-}
-@media(max-width: 915px) and (max-width: 480px) and (pointer: fine){
-    .social-text:hover{
-        display: none;
     }
 }
 
@@ -3582,3 +3666,12 @@ flex: none;
 }
 
 
+@media(max-width: 915px) and (pointer: fine){
+ 
+}
+
+@media(max-width: 480px) and (pointer: fine){
+    :hover{
+        background: none;
+    }
+}
