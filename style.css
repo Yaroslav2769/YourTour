@@ -1616,9 +1616,7 @@ background-repeat: no-repeat;
 .radio_input:checked + .btn__check{
   background-image: url(./files/on-btn.svg);
 }
-.radio_input:hover + .btn__check{
-    background-image: url(./files/on-btn.svg);
-  }
+
 
 
 
@@ -1639,13 +1637,7 @@ background-repeat: no-repeat;
     background-image: url(./files/on-mobile-rad.svg);
  }
 
- .radio_input:hover + .btn__check{
-    background-image: url(./files/off-mobile-rad.svg
-    
-    
-    
-    );
-  }
+
 
 
 }
@@ -1668,9 +1660,7 @@ background-repeat: no-repeat;
     background-image: url(./files/on-mobile-rad.svg);
  }
 
- .radio_input:hover + .btn__check{
-    background-image: url(./files/off-mobile-rad.svg);
-  }
+
 }
 
 .check-wrap{
@@ -1838,6 +1828,8 @@ background-repeat: no-repeat;
 background-image: url(./files/on.svg);
 }
 
+
+
 @media(max-width: 915px){
 
 .check__input{
@@ -1856,7 +1848,7 @@ background-image: url(./files/on.svg);
         background-image: url(./files/on-mobile.svg);
         }
         
-    
+     
 }
 
 @media(max-width: 480px){
@@ -1875,7 +1867,7 @@ background-image: url(./files/off-mobile.svg);
 .check__input:checked + .check-box{
     background-image: url(./files/on-mobile.svg);
  }
-        
+
 }
 
 .wrapper-btn-big{
