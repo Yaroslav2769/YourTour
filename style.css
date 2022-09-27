@@ -1613,10 +1613,16 @@ height: 26px;
 background-image: url(./files/off-btn.svg);
 background-repeat: no-repeat;
 }
+
+
+.radio_input:hover + .btn__check{
+    background-image: url(./files/on-btn.svg);
+}
+
+
 .radio_input:checked + .btn__check{
   background-image: url(./files/on-btn.svg);
 }
-
 
 
 
@@ -1633,11 +1639,15 @@ background-repeat: no-repeat;
     background-image: url(./files/off-mobile-rad.svg);
  }
 
+
+ .radio_input:hover + .btn__check{
+    background-image: url(./files/off-mobile-rad.svg);
+}
+
+
 .radio_input:checked + .btn__check{
     background-image: url(./files/on-mobile-rad.svg);
  }
-
-
 
 
 }
@@ -1650,11 +1660,16 @@ background-repeat: no-repeat;
         visibility: hidden;
         display: none;
     }
+
+
 .btn__check{
     width: 20px;
     height: 21px;
     background-image: url(./files/off-mobile-rad.svg);
  }
+ .radio_input:hover + .btn__check{
+    background-image: url(./files/off-mobile-rad.svg);
+}
 
 .radio_input:checked + .btn__check{
     background-image: url(./files/on-mobile-rad.svg);
@@ -1823,7 +1838,9 @@ background-image: url(./files/off.svg);
 background-repeat: no-repeat;
 
 }
-
+.check__input:hover + .check-box{
+    background-image: url(./files/on.svg);
+}
 .check__input:checked + .check-box{
 background-image: url(./files/on.svg);
 }
@@ -1844,9 +1861,13 @@ background-image: url(./files/on.svg);
     background-image: url(./files/off-mobile.svg);
     }
 
+    .check__input:hover + .check-box{
+        background-image: url(./files/off-mobile.svg);
+    }
+
     .check__input:checked + .check-box{
         background-image: url(./files/on-mobile.svg);
-        }
+    }
         
      
 }
@@ -1861,9 +1882,12 @@ background-image: url(./files/on.svg);
 .check-box{
 width: 20px;
 height: 20px;
-
 background-image: url(./files/off-mobile.svg);
  }
+
+ .check__input:hover + .check-box{
+    background-image: url(./files/off-mobile.svg);
+}
 .check__input:checked + .check-box{
     background-image: url(./files/on-mobile.svg);
  }
