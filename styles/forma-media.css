@@ -392,14 +392,14 @@ height: 74px;
 
 .btn__check{
     
-    background-image: url(./files/off-btn.svg);
+    background-image: url(/files/off-btn.svg);
  }
  .radio_input:hover + .btn__check{
-    background-image: url(./files/off-btn.svg);
+    background-image: url(/files/off-btn.svg);
 }
 
 .radio_input:checked + .btn__check{
-    background-image: url();
+    background-image: url(/styles/files/on-btn.svg);
  }
 
 
@@ -415,14 +415,14 @@ height: 74px;
 .btn__check{
     width: 20px;
     height: 21px;
-    background-image: url(./files/off-mobile-rad.svg);
+    background-image: url(/files/off-mobile-rad.svg);
  }
  .radio_input:hover + .btn__check{
-    background-image: url(./files/off-mobile-rad.svg);
+    background-image: url(/files/off-mobile-rad.svg);
 }
 
 .radio_input:checked + .btn__check{
-    background-image: url(./files/on-mobile-rad.svg);
+    background-image: url(/files/on-mobile-rad.svg);
  }
 
 
@@ -499,14 +499,14 @@ height: 74px;
   
         
     .check-box{
-    background-image: url(./files/off.svg);
+    background-image: url(/files/off.svg);
     }
         
     .check__input:hover + .check-box{
-    background-image: url(./files/off.svg);
+    background-image: url(/files/off.svg);
     }
     .check__input:checked + .check-box{
-        background-image: url(./files/on.svg);
+        background-image: url(/files/on.svg);
     }
         
     }
@@ -521,14 +521,14 @@ display: none;
 .check-box{
 width: 20px;
 height: 20px;
-background-image: url(./files/off-mobile.svg);
+background-image: url(/files/off-mobile.svg);
 }
     
 .check__input:hover + .check-box{
-background-image: url(./files/off-mobile.svg);
+background-image: url(/files/off-mobile.svg);
 }
 .check__input:checked + .check-box{
-    background-image: url(./files/on-mobile.svg);
+    background-image: url(/files/on-mobile.svg);
 }
     
 }
