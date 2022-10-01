@@ -62,7 +62,7 @@ margin: 0 auto;
 
 
 .welcome{
-background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 39.9%), linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/header-img.png);
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 39.9%), linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./images/header-img.png);
 background-position: center;
 background-size: cover;
 height: 831px;
@@ -136,6 +136,7 @@ width: 155px;
     text-decoration: none;
     height: 23px;
     width: 124px;
+    flex-wrap: nowrap;
     }
 }
 
