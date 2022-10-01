@@ -1,0 +1,268 @@
+.wrap-main{
+    margin-top: 135px;
+    height: 1334px;
+    padding: 0px;
+    }
+    
+    
+    
+    
+
+    
+    
+    .container-main{
+        margin: 0 auto;
+        width:1170px;
+    }
+    
+
+    
+    
+    
+
+    
+    
+    .content-wrapper-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 35px;
+    height: 142px;
+    }
+    
+    
+
+    
+    .main-title{
+     font-weight: 700;
+     font-size: 59px;
+     line-height: 73.16px;
+     text-align: center;
+    }
+    
+    
+ 
+    
+    .main-wrap-description{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+    }
+    
+    
+    
+    
+
+    
+    
+    
+    .main-item{
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28.06px;
+    height: 34px;
+    }
+    
+    
+    
+    
+
+    
+    
+    .pop{
+        color: #EFA501;
+        border-bottom: 2px solid #EFA501;
+        align-self: stretch;
+    
+    }
+    
+    
+    
+    .avtor:hover,
+    .hiking:hover,
+    .alloys:hover,
+    .velo:hover{
+        border-bottom: 2px solid #000;
+    }
+    
+
+    
+    .cards-list-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    width: 1170px;
+    height: 1092px;
+    }
+    
+
+    
+    
+    .cards-wrap{
+    display: flex;
+    padding: 0px;
+    gap: 30px;
+    height: 1092px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    }
+
+    
+    
+    .cards{
+        width: 370px;
+        height: 531px;
+        border-radius: 50px;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    
+
+    
+    .wrapper-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    position: absolute;
+    z-index: 1;
+    width: inherit;
+    height: inherit;
+    }
+    
+    
+
+    
+    
+    
+    
+    .cards-fon{
+        width: inherit;
+        height: inherit;
+        border-radius: 50px;
+        position: absolute;
+        object-fit: cover;
+        transform: scale(1);
+        transition: 300ms ease; 
+      
+    }
+    .cards:hover .cards-fon{
+        transform: scale(1.2);
+       
+    }
+    
+    
+
+    
+    
+    
+    
+  
+    
+    .rgb{
+        background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%);
+        width: 370px;
+        height: 531px;
+        border-radius: 50px;
+        position: absolute;
+        
+    }
+    
+    
+
+    
+    
+    .cards-text-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 270px;
+    height: 126px;
+    }
+    
+    
+    
+    
+    
+
+    .cards-title{
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 42.7px;
+        width: 270px;
+        height: 86px;
+        color: #fff;
+    }
+    
+.cards-money{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24.14px;
+    letter-spacing: -0.01em;
+    color: #fff;
+}
+
+    
+    
+    
+    
+.cards-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 15px;
+    width: 159px;
+    height: 28px;   
+}
+
+
+.cards:hover .cards-btn{
+    padding: 7px 20px;
+    position: absolute;
+    width: 199px;
+    height: 42px;
+    left: 30px;
+    top: 446px;
+    background: #286562;
+    border-radius: 50px;
+}
+    
+.cards:active .cards-btn{
+    background: #EFA501;
+    border-radius: 50px;
+}
+    
+
+    
+.payments{
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28.06px;
+    color: #fff;
+    font-family: Roboto;
+} 
+
+    
+    
+.vector-card{
+    width: 22px;
+    height: 15px;
+}
+
+.wraper___card{
+    display: contents;
+    justify-content: center;
+}
+
+

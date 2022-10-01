@@ -1,0 +1,328 @@
+@media(max-width: 1200px){
+    .wrap-main{
+     height: 1871px;
+    }
+ } 
+
+@media(max-width: 1023px){
+   .wrap-main{
+    height: 1871px;
+   }
+}
+
+@media(max-width: 767px){
+    .wrap-main{
+    margin-top: 75px;
+    height: 2172px;
+    }
+ }
+
+@media(max-width: 1200px){
+    .container-main{
+     width: 100vw;
+     
+    }
+ }
+
+@media(max-width: 1023px){
+    .container-main{
+     width: 100vw;
+     
+    }
+ }
+
+ @media(max-width: 767px){
+    .container-main{
+        width: 320px;
+        padding: 0px;
+    }
+ }
+
+
+ @media(max-width: 767px){
+    .content-wrapper-main{
+   height: 124px;
+   gap: 30px;
+    }
+ }
+
+ @media(max-width: 767px){
+    .main-title{
+     font-size: 34px;
+     line-height: 38.08px;
+     letter-spacing: 0.02em;
+    }
+ }
+
+
+ @media(max-width: 767px){
+    .main-wrap-description{
+    flex-wrap: wrap;
+   justify-content: center;
+   gap: 10px;
+    }
+ }
+
+     
+ @media(max-width: 767px){
+    .main-item{
+    font-size: 16px;
+    line-height: 22.72px;
+    height: 23px;
+    }
+ }
+    
+ @media (max-width: 1023px){
+    .avtor:hover,
+    .hiking:hover,
+    .alloys:hover,
+    .velo:hover{
+        border-bottom: none;
+    }
+    }
+
+
+    @media(max-width: 1200px){
+        .cards-list-wrap{
+            width: 918px;
+            height: 1629px;
+        }
+     }
+    
+    
+    @media(max-width: 1023px){
+        .cards-list-wrap{
+            width: 918px;
+            height: 1629px;
+        }
+     }
+    
+    
+     @media(max-width: 767px){
+        .cards-list-wrap{
+            width: 318px;
+            height: 1998px;
+    
+        }
+     }
+     @media (max-width: 1023px) {
+        .cards-wrap{
+        height: 1629px;
+        gap: 18px;
+        flex: none;
+        }
+        
+    }
+    
+    
+    
+    @media (max-width: 767px) {
+        .cards-wrap{
+        height: 1998px;
+        gap: 18px;
+        margin-top: 50px;
+        }
+        
+    }
+
+
+    @media(max-width: 1200px){
+        .cards{
+        width: 450px;
+        height: 531px;
+        }
+     }
+    
+    @media(max-width: 1023px){
+        .cards{
+            width: 100%;
+            height: 531px;
+        }
+     }
+    
+     @media(max-width: 767px){
+        .cards{
+            width: 318px;
+            height: 318px;
+            border-radius: 20px;
+        }
+     }
+    
+    
+
+        
+    
+     @media(max-width: 767px){
+        .wrapper-cards{
+           padding: 25px;
+        }
+     }
+     @media(max-width: 1023px){
+        .cards:hover .cards-fon{
+            transform: scale(1);
+        }
+    }
+    
+
+    
+    @media(max-width: 1200px){
+        .cards-fon{
+            width: 450px;
+            height: 531px;
+        }
+     }
+    
+    
+    @media(max-width: 1023px){
+        .cards-fon{
+            width: 100%;
+            height: 531px;
+        }
+     }
+     @media(max-width: 767px){
+        .cards-fon{
+            width: 318px;
+            height: 318px;
+            border-radius: 20px;
+        }
+     }
+     @media(max-width: 1200px){
+        .rgb{
+            width: 450px;
+            height: 531px;
+        }
+     }
+    
+    
+    @media(max-width: 1023px){
+        .rgb{
+            width: 100%;
+            height: 531px;
+        }
+     }
+    
+     @media(max-width: 767px){
+        .rgb{
+            width: 318px;
+            height: 318px;
+            border-radius: 20px;
+        }
+     }
+    
+     
+     @media(max-width: 767px){
+        .rgb{
+            width: 318px;
+            height: 318px;
+            border-radius: 20px;
+        }
+     }
+     @media(max-width: 767px){
+        .cards-text-wrap{
+            gap: 13px;
+            width: 268px;
+            height: 64px;
+        }
+    }
+    @media(max-width: 767px){
+        .cards-text-wrap{
+            gap: 13px;
+            width: 268px;
+            height: 64px;
+        }
+    }
+    
+        
+    @media(max-width: 767px){
+        .cards-title{
+            font-weight: 700;
+            font-size: 23px;
+            line-height: 27.6px;
+            letter-spacing: 0.04em;
+            width: 268px;
+            height: 28px;
+        }
+    
+        .cards-money{
+        font-size: 16px;
+        line-height: 22.72px;
+        letter-spacing: -0.01em;
+        }
+    }
+    
+    
+    @media(max-width: 767px){
+        .cards-title{
+            font-weight: 700;
+            font-size: 23px;
+            line-height: 27.6px;
+            letter-spacing: 0.04em;
+            width: 268px;
+            height: 28px;
+        }
+    
+        .cards-money{
+        font-size: 16px;
+        line-height: 22.72px;
+        letter-spacing: -0.01em;
+        }
+    }
+    @media(max-width: 1023px){
+        .cards:hover .cards-btn{
+            background: none;
+            padding: 0px;
+            height: 28px;
+            left: 0px;
+            top: 0px;
+           position: relative;
+        }
+    }
+    
+
+    @media(max-width: 480px){
+        .payments{
+            font-size: 16px;
+            line-height: 22.72px;
+        }
+      }
+      @media(max-width: 915px){
+        .payments{
+            font-size: 16px;
+            line-height: 22.72px;
+        }
+    }    
+
+    @media (max-width: 1200px) {
+        .wraper___card{
+         display: flex;
+         justify-content: center;
+         width: 100%;
+         gap: 18px;
+        }
+     }
+    
+    @media (max-width: 1023px) {
+       .wraper___card{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        gap: 18px;
+       }
+    }
+    
+    @media (max-width: 767px) {
+        .wraper___card{
+       display: contents;
+        }
+     }
+     
+    
+    
+     
+    
+     
+     @media (max-width: 767px) {
+         .wraper___card{
+        display: contents;
+         }
+       }

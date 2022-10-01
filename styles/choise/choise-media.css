@@ -1,0 +1,65 @@
+@media(max-width: 767px){
+    .content-last{
+    margin-top: 75px;
+    }
+}
+
+@media(max-width: 767px){
+    .container-last{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 285px;
+    }
+}
+
+
+@media(max-width: 767px){
+    .footer-photo{
+        width: 130px;
+        height: 133px;
+        border-radius: 20px;
+    }
+}
+@media(max-width: 767px){
+    .content-wrap-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 291px;
+    height: 122px;
+    }
+}
+@media(max-width: 767px){
+.footer-title{
+font-weight: 700;
+font-size: 23px;
+line-height: 27.6px;
+text-align: center;
+letter-spacing: 0.04em;
+}
+}
+@media(max-width: 767px){
+.footer-description{
+font-size: 16px;
+line-height: 22.72px;
+text-align: center;
+}
+}  
+@media(max-width: 767px){
+    .email-last{
+    font-size: 16px;
+    line-height: 22.72px;
+    }
+}  
+@media(max-width: 1023px){
+    .email-last:hover{
+        text-decoration-line: none;
+    }
+    .email-last:active{
+        color: #000;
+    }
+}

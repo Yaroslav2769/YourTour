@@ -1,0 +1,569 @@
+
+ @media(max-width: 1200px){
+    .wrap-tour{
+     height: 1225px;
+    }
+ }
+     
+ @media(max-width: 1023px){
+    .wrap-tour{
+     height: 1225px;
+    }
+ }
+
+
+  
+ @media(max-width:767px){
+    .wrap-tour{
+        margin-top: 75px;
+        height: 1254px;
+    }
+ }
+ 
+ @media(max-width: 1200px){
+    .container-tour{
+     width: 918px;
+    
+    }
+ }
+
+ @media(max-width: 1023px){
+    .container-tour{
+     width: 100vw;
+    
+    }
+ }
+
+
+ @media(max-width:767px){
+    .container-tour{
+        width: 320px;
+        padding: 0px;
+    }
+ }
+
+ @media(max-width:767px){
+    .tour-wrap-content{
+        height: 104px;
+        gap: 20px;
+    }
+}
+
+
+@media(max-width:767px){
+    .tour-title{
+     font-size: 34px;
+     line-height: 38.08px;
+     letter-spacing: 0.02em;
+    }
+ }
+
+ @media(max-width:767px){
+    .tour-description{
+    font-size: 16px;
+    line-height: 22.72px;
+    width: 318px;
+    }
+}
+
+
+ 
+ @media (max-width: 1200px){
+    .forma-wrap{
+    padding: 60px;
+    height: 966px;
+    width: 918px;
+    }
+}
+
+@media (max-width: 1023px){
+    .forma-wrap{
+    padding: 60px;
+    height: 966px;
+    width: 100%;
+    }
+    }
+    
+@media (max-width:767px){
+    .forma-wrap{
+    padding: 60px;
+    height: 966px;
+    width: 100%;
+    }
+}
+        
+    
+    
+    
+    @media (max-width:767px){
+    .forma-wrap{
+        padding: 20px 20px 40px;
+        gap: 30px;
+        height: 1110px;
+        margin-top: 40px;
+        border-radius: 30px;
+        flex-direction: column;
+        }
+    }
+  
+@media(max-width: 1200px){
+    .forma-wrapper{
+    width: 100%;
+    height: 104px;
+     }
+    }
+
+@media(max-width: 1023px){
+.forma-wrapper{
+width: 100%;
+height: 104px;
+ }
+}
+
+
+
+@media(max-width:767px){
+.forma-wrapper{
+width: 278px;
+height: 74px;
+ }
+}
+
+@media(max-width:767px){
+    .forma-wrapper{
+    width: 278px;
+    height: 74px;  
+     }
+    }
+          
+    @media(max-width: 1200px){
+        .str{
+        margin-top: 65px;
+        margin-left: 346px; 
+        }
+       }
+    
+       @media(max-width: 1023px){
+        .str{
+        margin-top: 65px;
+        margin-left: 36%; 
+        }
+       }
+
+
+       @media(max-width:767px){
+        .str{
+        margin-top: 50px;
+        margin-left: 250px; 
+        width: 13px;
+        }
+       }
+
+    
+    @media(max-width: 1200px){
+        select{
+                width: 100%;
+            }
+        
+        .forma{
+            width: 100%;
+        }
+        }
+    
+    
+    @media(max-width: 1023px){
+    select{
+        width: 100%;
+        }
+    
+    .forma{
+        width: 100%;
+    }
+    }
+    
+    
+    @media(max-width:767px){
+    
+        select{
+            padding: 10px;
+            width: 278px;
+            height: 43px;
+        }
+        .forma{
+            padding: 10px;
+            width: 278px;
+            height: 43px;
+        }
+    }
+    
+    
+    @media(max-width:767px){
+        select{
+            padding: 10px;
+            width: 278px;
+            height: 43px;
+        }
+    
+        .forma{
+            padding: 10px;
+            width: 278px;
+            height: 43px;
+        }
+    }
+    
+    @media(max-width: 1023px){
+        select:hover{
+            background: #F9F7F4;
+            border: 1px solid #F4F0E9;
+        }
+
+       
+    }
+        
+    @media(max-width: 1023px){
+        .forma:hover{
+            background: #F9F7F4;
+            border: 1px solid #F4F0E9;
+        }
+        .forma:focus{
+            background: #F9F7F4;
+            border: 1px solid #F4F0E9;
+        }
+    }
+   
+
+
+        
+            
+        @media(max-width:767px){
+        select{
+            font-size: 16px;
+            line-height: 22.72px;
+            }
+        }
+        
+        @media (max-width: 1200px) {
+            .forma-wrapper-container{
+            gap: 20px;
+            width: 798px;
+            }
+        }
+        @media (max-width: 1023px) {
+            .forma-wrapper-container{
+            gap: 20px;
+            width: 100%;
+            }
+           }
+        
+        @media (max-width:767px) {
+         .forma-wrapper-container{
+            display: contents;
+         }
+        } 
+        
+
+        @media (max-width: 1200px) {
+            .comment-wrap{
+                width: 798px;
+                height: 188px;
+            }
+            }
+        
+        @media (max-width: 1023px) {
+        .comment-wrap{
+            width: 100%;
+            height: 188px;
+        }
+        }
+        
+        
+        
+        @media (max-width:767px) {
+        .comment-wrap{
+            width: 278px;
+            height: 163px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .comment{
+        width: 798px;
+     }
+    }
+
+@media (max-width: 1023px) {
+.comment{
+    width: 100%;
+ }
+}
+
+
+            
+@media (max-width:767px) {
+.comment{
+    padding: 10px;
+    width: 278px;
+    height: 132px;
+ }
+}     
+
+@media(max-width: 1023px){
+    .comment:hover{
+        background: #F9F7F4;
+        border: 1px solid #F4F0E9;
+    }
+
+    .comment:focus{
+        background: #F9F7F4;
+        border: 1px solid #F4F0E9;
+    }
+}
+
+
+@media (max-width: 1200px){
+    .radio_wrapper{
+    width: 798px;
+    }
+}
+
+@media (max-width: 1023px){
+    .radio_wrapper{
+    width: 100%;
+    }
+}
+
+
+
+
+@media (max-width:767px){
+    .radio_wrapper{
+    width: 278px;
+    height: 54px;
+    }
+}
+
+@media (max-width: 1023px){
+    .forma-radio{
+      width: 798px;
+    }
+}
+
+
+
+@media (max-width:767px){
+    .forma-radio{
+      width: 278px;
+      height: 54px;  
+    }
+}
+
+
+
+@media (max-width:767px){
+.radio-wrap{
+    gap: 30px; 
+    width: 139px;
+    height: 23px;
+    }
+}
+
+
+
+@media (max-width:767px){
+    .radio{
+    gap: 10px;
+    height: 23px;
+    width: 60px;
+    }
+}
+
+
+
+@media (max-width:767px){
+    .radio-text{
+    font-size: 16px;
+    line-height: 22.72px;
+    padding-left: 30px;
+    }
+}
+
+
+@media(max-width:1023px){
+
+.btn__check{
+    
+    background-image: url(/files/off-btn.svg);
+ }
+ .radio_input:hover + .btn__check{
+    background-image: url(/files/off-btn.svg);
+}
+
+.radio_input:checked + .btn__check{
+    background-image: url(/files/on-btn.svg);
+ }
+
+
+}
+
+@media(max-width:767px){
+    .radio_input{
+        visibility: hidden;
+        display: none;
+    }
+
+
+.btn__check{
+    width: 20px;
+    height: 21px;
+    background-image: url(/files/off-mobile-rad.svg);
+ }
+ .radio_input:hover + .btn__check{
+    background-image: url(/files/off-mobile-rad.svg);
+}
+
+.radio_input:checked + .btn__check{
+    background-image: url(/files/on-mobile-rad.svg);
+ }
+
+
+}
+
+@media(max-width: 1023px){
+    .check-wrap{
+     gap: 19px;
+    }
+}
+
+
+@media(max-width:767px){
+    .check-wrap{
+        gap: 10px;
+        align-items: flex-start;
+        height: 69px;
+    }
+}
+
+
+
+@media(max-width: 1023px){
+    .form-check{
+     gap: 30px;
+    }
+}
+
+
+@media(max-width:767px){
+    .form-check{
+     gap: 10px;
+     align-items: flex-start;
+     height: 69px;
+    }
+}
+
+@media (max-width: 1023px){
+    .check-text{
+       padding-left: 11px;
+    }
+}
+
+
+
+@media (max-width:767px){
+    .check-text{
+        font-size: 16px;
+        line-height: 22.72px;
+        height: 69px;
+        width: 248px;
+      padding-left: 20px;
+    }
+}
+
+
+@media(max-width: 1023px){
+    .text-lic:hover{
+        text-decoration-line: none;
+    }
+}
+
+
+
+@media (max-width:767px){
+.text-lic{
+    font-size: 16px;
+    line-height: 22.72px;
+   
+}
+}
+
+@media(max-width: 1023px){ 
+  
+        
+    .check-box{
+    background-image: url(/files/off.svg);
+    }
+        
+    .check__input:hover + .check-box{
+    background-image: url(/files/on.svg);
+    }
+    .check__input:checked + .check-box{
+        background-image: url(/files/on.svg);
+    }
+        
+    }
+    
+    
+@media(max-width: 767px){ 
+.check__input{
+visibility: hidden;
+display: none;
+}
+    
+.check-box{
+width: 20px;
+height: 20px;
+background-image: url(/files/off-mobile.svg);
+}
+    
+.check__input:hover + .check-box{
+background-image: url(/files/off-mobile.svg);
+}
+.check__input:checked + .check-box{
+    background-image: url(/files/on-mobile.svg);
+}
+    
+}
+
+
+        
+@media(max-width:767px){
+.wrapper-btn-big{
+justify-content: space-between;
+width: 278px;
+height: 47px; 
+gap: 10px;  
+    }
+}  
+        
+
+        
+@media(max-width: 1023px){
+.big-btn:hover{
+    background: #286562;
+}
+.big-button:hover{
+    background: #E0F0E5;
+}
+}
+        
+        
+        
+@media(max-width:767px){
+.big-btn{
+width: 134px;
+height: 47px;    
+}
+.big-button{
+   width: 134px;
+    height: 47px;
+    }
+}        
