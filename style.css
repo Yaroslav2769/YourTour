@@ -2234,10 +2234,8 @@ transform: scale(1.2);
 
 .cards-stories:hover .stories-fon{
     transform: scale(1);
-    }
+}
     
-
-
 .gradient{
     width: 100%;
     }
@@ -2345,7 +2343,6 @@ padding: 0px 60px 60px;
 position: absolute;
 z-index: 2;   
 width: 1170px;
-height: 88px;
 bottom: 0;
 }
 
