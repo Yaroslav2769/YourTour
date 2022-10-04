@@ -2650,6 +2650,7 @@ color: #000;
     align-items: center;
     gap: 7px;
     margin: 0 6%;
+   
     }
 }
 
@@ -2658,6 +2659,7 @@ color: #000;
     gap: 25px;
     margin-left: auto;
     height: 28px;
+    width: 419px;
 }
 
 @media(max-width: 767px){
@@ -2665,6 +2667,7 @@ color: #000;
     gap: 15px;
     height: 23px;
     margin: 0;
+    width: 314px;
     }
 } 
 
@@ -2706,30 +2709,85 @@ border-bottom: 1px solid #000;
     }
 }
 
-.wrap-social-text{
+.wrap-social{
     display: flex;
     gap: 10px;
     align-items: center;
     flex: none;
 }
-    
+.instagram{
+width: 126px;
+}  
+
+.facebook{
+width: 120px;
+}
+
+.vkontakte{
+    width: 123px;
+}
+
+.logo-footer{
+    width: 26px;
+    height: 26px;
+}
+.inst{
+    padding: 7px 2px 5px 10px;
+}
+.face{
+    padding: 5px 5px 4px 13px;
+}
+.vk{
+    padding: 8px 2px 4px 4px;
+}
+
 .logo-inst{
     width: 14px;
     height: 14px;
+    position: absolute;
 }
     
 .logo-fac{
     width: 8px;
     height: 17px;
+    position: absolute;
 }
     
 .logo-vk{
     width: 20px;
     height: 12px;
+    position: absolute;
 }
   
 @media(max-width: 767px){
-.logo-fac{
+
+.inst{
+    padding: 5.38px 1.54px 3.85px 7.69px;
+}
+.face{
+    padding: 3.85px 3.85px 3.08px 10px;
+}
+
+.vk{
+    padding: 7.69px 1.54px 15px 3.08px;
+}
+
+.instagram{
+    width: 97px;
+}  
+
+.facebook{
+    width: 92px;
+}
+.vkontakte{
+    width: 95px;
+}
+
+.logo-footer{
+    width: 20px;
+    height: 20px;
+}
+.logo-inst{
     width: 10.77px;
     height: 10.77px;
 }
