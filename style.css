@@ -2760,6 +2760,10 @@ width: 120px;
 }
   
 @media(max-width: 767px){
+.wrap-social{   
+    gap: 5px;
+   
+}
 
 .inst{
     padding: 5.38px 1.54px 3.85px 7.69px;
