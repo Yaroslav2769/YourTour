@@ -1,7 +1,6 @@
 body{
    background-color: #F9F7F4;
    font-family: Roboto,  sans-serif;
-  
 }
 
 button {
@@ -484,6 +483,7 @@ margin-top: 100px;
     height: 1629px;
     gap: 18px;
     flex: none;
+    padding: 0 5%;
     }       
 }
         
@@ -492,6 +492,7 @@ margin-top: 100px;
     height: 1998px;
     gap: 18px;
     margin-top: 50px;
+    padding: 0;
     }
 }    
 
@@ -790,7 +791,7 @@ position: absolute;
 @media(max-width: 1023px){
     .container-tour{
     width: 100vw;
-    
+    padding: 0 5%;
     }
 }
 
@@ -939,7 +940,7 @@ height: 104px;
 @media(max-width: 1023px){
     .str{
     margin-top: 65px;
-    margin-left: 38%; 
+    margin-left: 32%; 
     }
 }
 
@@ -1671,7 +1672,8 @@ margin-top: 100px;
 @media(max-width: 1023px){
     .cards-reviews-wrap{
         gap: 18px;
-        height: 814px;
+        height: 841px;
+        padding: 0 5%;
     }
 }
 
@@ -1714,6 +1716,10 @@ line-height: 28.06px;
     .cards-reviews{
         width: 100%;
         height: 841px;
+    }
+
+    .pavel{
+        padding:  2%;
     }
 }
 
@@ -1773,9 +1779,9 @@ height: 75px;
     }
 }
 
-@media(max-width: 850px){
+@media(max-width: 940px){
     .cards-footer-reviews{
-        padding: 0px;
+        padding: 7% 0 0;
         
     }
 }
@@ -2177,7 +2183,11 @@ height: 159px;
     height: 1801px;
     margin-top: 100px;
 }
-
+@media(max-width: 1023px){
+    .wrap-cards-stories{
+      padding: 0% 5%;
+    }
+}
 @media(max-width: 767px){
     .wrap-cards-stories{
         gap: 20px;
