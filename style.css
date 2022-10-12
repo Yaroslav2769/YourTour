@@ -1911,6 +1911,7 @@ color: #A6A6A6;
     font-size: 34px;
     line-height: 38.08px;
     letter-spacing: 0.02em;
+    width: 318px;
 }
     
 .description{
@@ -1933,7 +1934,8 @@ color: #A6A6A6;
     .wrap-travel{
     height: 366px;
     gap: 18px;
-    margin-top: 50px;
+    margin: 50px auto;
+    width: 318px;
     }
 }
 .photo-wrapper{
@@ -1968,8 +1970,8 @@ color: #A6A6A6;
     .photo-wrapper{
     gap: 18px;
     height: 110px;
-    width: 100vw;
-    padding: 0 5.83%;
+    width: 318px;
+    padding: 0;
 }
 }
 
@@ -1977,7 +1979,8 @@ color: #A6A6A6;
     border-radius: 50px;
     width: 23.04%;
     height: 300px;
-    flex-grow: 1; 
+    flex-grow: 1;
+    object-fit: cover; 
 }
     
 .travel-photo-two{
@@ -1997,7 +2000,7 @@ color: #A6A6A6;
 
 @media(max-width: 1200px){
     .travel-photo{
-    width: 30.73%;
+    width: 314.67px;
     }
 
     .hidden{
@@ -2005,9 +2008,13 @@ color: #A6A6A6;
     }
 
     .travel-photo-two{
-    width: 22.56%;
+    width: 231px;
     height: 301px;
     flex-grow: 1;     
+    }
+    .travel-photo-img{
+        width: 231px;
+        height: 301px;
     }
 }
 
@@ -2034,7 +2041,7 @@ color: #A6A6A6;
 
 @media(max-width: 767px){
     .travel-photo{
-        width: 41.66%;
+        width: 150px;
         height: 110px;
         border-radius: 20px;
     }
@@ -2044,13 +2051,13 @@ color: #A6A6A6;
     }
 
     .travel-photo-two{
-        width: 27.6%;
+        width: 99.33px;
         height: 110px;
         border-radius: 20px;
     }
 
     .travel-photo-img{
-    width: 27.6%;
+    width: 99.33px;
     height: 110px;
     border-radius: 20px;
     }
@@ -2097,10 +2104,18 @@ color: #A6A6A6;
 }
 
 @media(max-width: 767px){
+.photo-wrapper-two{
+    width: 318px;
+    height: 110px;
+    gap: 10px;
+    padding: 0;
+}
+
 .photo-wrapper-fri{
     gap: 10px;
     height: 110px;
-    padding: 0 5.83%;
+    width: 318px;
+    padding: 0;
 }
 }
 
