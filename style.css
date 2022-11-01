@@ -428,10 +428,12 @@ textarea {
   border-radius: 50px;
   flex-wrap: wrap;
 }
-      
+ 
 .str {
   position: absolute;
-  margin-top: 65px;
+  top: 65px;
+  width: 14px;
+  height: 14px;
   margin-left: 458px;
 }
 
@@ -1281,12 +1283,6 @@ border-bottom: 1px solid #000;
   height: 12px;
 }
 
-.str-wrapper{
-  width: 26px;
-  height: 26px;
-  background: #000;
-}
-
 @media (max-width: 1200px) {
 .container {
   width: 910px;
@@ -1369,8 +1365,7 @@ margin-right: 18px;
 }
 
 .str {
-  margin-top: 65px;
-  margin-left: 346px; 
+  margin-left: 347px; 
 } 
 
 select {
@@ -1543,8 +1538,7 @@ select {
 }
 
 .str {
-  margin-top: 65px;
-  margin-left: 32%; 
+  margin-left: 87%; 
 }
 
 select:hover {
