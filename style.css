@@ -1053,7 +1053,7 @@ select:hover{
 .footer-cards-stories {
   position: absolute;
   bottom: 0;
-  width: 1170px;
+  width: 100%;
   display: flex;
   align-items: center;
   padding: 0px 60px 60px;
@@ -1061,7 +1061,7 @@ select:hover{
 }
 
 .cards-social {
-  width: 343px;
+  width: 322px;
   height: 28px;
   display: flex;
   flex-direction: row;
@@ -1454,10 +1454,6 @@ select {
   width: 918px;
 }
 
-.footer-cards-stories {
-  width: 918px;
-}
-
 .container-footer {
   width: 918px;
 }
@@ -1664,9 +1660,8 @@ border: 1px solid #F4F0E9;
 .shadow {
   width: 100%;
 }
-.footer-cards-stories {
-  width: 100%;
-}
+
+
 .social:hover {
   text-decoration-line: none;
 }
