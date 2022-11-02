@@ -7,7 +7,7 @@
 
 .logo {
   width: 133px;
-  height: 22px;
+  height: 23px;
 }
  
 .welcome {
@@ -93,6 +93,10 @@
   margin-right: 10px;
 }
 
+.main-item:nth-child(3) {
+  margin-right: 0;
+}
+
 .main-item:nth-child(4),
 .main-item:nth-child(5) {
   margin-bottom: 0;
@@ -157,6 +161,11 @@
   letter-spacing: -0.01em;
 }
 
+.cards-btn {
+  width: 123px;
+  height: 26px;
+}
+
 .payments {
   font-size: 16px;
   line-height: 23px;
@@ -206,9 +215,8 @@
 }
 
 .str {
-  width: 14px;
-  top: 47px;
-  margin-left: 246px; 
+  top: 49px;
+  margin-left: 247px; 
 }
 
 select {
@@ -312,11 +320,13 @@ select {
   padding-left: 30px;
   font-size: 16px;
   line-height: 23px;
+  letter-spacing: 0;
 }
 
 .text-lic {
   font-size: 16px;
-  line-height: 23px;  
+  line-height: 23px; 
+  letter-spacing: 0; 
 }
 
 .check__input {
@@ -390,7 +400,7 @@ select {
 }
 
 .cards-reviews {
-  width: 318px;
+  width: 317px;
   height: 408px;
   padding: 20px;
   border-radius: 20px;
@@ -528,7 +538,8 @@ select {
 }
 
 .mob-photo {
- margin-right: 10px;
+  width: 154px;
+  margin-right: 10px;
 }
 
 .mob-photo:first-child {
@@ -537,6 +548,7 @@ select {
 
 .mob-photo:nth-child(2) {
   margin-right: 0px;
+  height: 110px;
 }
 
 .stories {

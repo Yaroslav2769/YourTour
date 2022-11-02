@@ -69,7 +69,7 @@ textarea {
 
 .logo {
   width: 182px;
-  height: 30px;
+  height: 32px;
 }
 
 .header {
@@ -124,7 +124,7 @@ textarea {
 }
 
 .welcome-title {
-  width: 768px;
+  max-width: 768px;
   height: 315px;
   font-weight: 700;
   font-size: 96px;
@@ -370,6 +370,8 @@ textarea {
 .arrow-bt {
   width: 24px;
   height: 26px;
+  display: flex;
+  align-items: center;
   padding: 6px 1px;
   margin-left: 15px;
 }
@@ -431,9 +433,7 @@ textarea {
  
 .str {
   position: absolute;
-  top: 65px;
-  width: 14px;
-  height: 14px;
+  top: 66px;
   margin-left: 458px;
 }
 
@@ -841,7 +841,7 @@ select:hover{
 }
 
 .travel-wrap-content {
-  height: 159px;
+  height: 160px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -888,8 +888,20 @@ select:hover{
   width: 23%;
   height: 300px;
   border-radius: 50px;
-  object-fit: cover; 
   margin-right: 30px;
+  flex-grow: 1;
+}
+.mob-photo {
+  object-fit: cover;
+}
+
+.travel-photo:nth-child(2),
+.travel-photo:nth-child(3) {
+  height: 301px;
+}
+
+.travel-photo:nth-child(3){
+  object-fit: cover;
 }
 
 .travel-photo:first-child{
@@ -901,7 +913,8 @@ select:hover{
   height: 301px;
   border-radius: 50px;
   object-fit: cover;
-  margin-right: 30px;   
+  margin-right: 30px;
+  flex-grow: 1;   
 }
 
 .travel-photo-two:first-child{
@@ -913,7 +926,8 @@ select:hover{
   height: 301px;
   border-radius: 50px;
   object-fit: cover;
-  margin-right: 30px;  
+  margin-right: 30px;
+  flex-grow: 1;  
 }
 
 .photo-wrapper-two{
@@ -1070,6 +1084,11 @@ select:hover{
   padding: 0px;
   margin-left: auto;
 }
+
+.cards-three {
+  width: 343px;
+}
+
     
 .social {
   font-weight: 400;
@@ -1078,6 +1097,7 @@ select:hover{
   color: #FFFFFF;
   cursor: pointer;
   margin-right: 35px;
+  flex-grow: 1;
 }
 
 .social:last-child {
@@ -1292,12 +1312,9 @@ border-bottom: 1px solid #000;
   margin-right: 30px;
 }
 
-.welcome-title {
-  max-width: 914px;
-}
-
 .welcome-description {
   max-width: 442px;
+  margin-top: 52px;
 }
 
 .wrap-main {
@@ -1357,6 +1374,10 @@ margin-right: 18px;
   padding: 60px;
 }
 
+.check-text {
+  padding-left: 37px;
+}
+
 .forma-wrapper {
   max-width: 389px;
   height: 104px;
@@ -1365,7 +1386,8 @@ margin-right: 18px;
 }
 
 .str {
-  margin-left: 347px; 
+  margin-left: 348px; 
+  top: 67px;
 } 
 
 select {
@@ -1477,10 +1499,6 @@ select {
 .welcome-btn:hover {
   background: #fff;
   color: inherit;
-}
-
-.welcome-title {
-  width: 100%;
 }
 
 .welcome-description {
