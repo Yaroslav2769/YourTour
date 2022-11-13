@@ -177,7 +177,7 @@
 }
 
 .container-tour {
-  width: 320px;
+  width: 318px;
   padding: 0px;
 }
 
@@ -214,21 +214,25 @@
   margin-right: 0px;
 }
 
+.forma-wrapper:nth-child(2) {
+  height: 77px;
+}
+
 .str {
-  top: 49px;
-  margin-left: 247px; 
+  top: 50px;
+  margin-left: 246px; 
 }
 
 select {
-  width: 278px;
-  height: 43px;
+  height: 46px;
   padding: 10px;
   font-size: 16px;
   line-height: 23px;
 }
 
+
+
 .forma {
-  width: 278px;
   height: 43px;
   padding: 10px;
 }

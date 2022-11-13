@@ -101,7 +101,6 @@ textarea {
  font-size: 20px;
  font-weight: 400;
  line-height: 28px;
- flex: none;
  color: #fff;
  cursor: pointer;
  margin-right: 50px;
@@ -175,7 +174,7 @@ textarea {
   line-height: 24px;
   letter-spacing: -0.01em;
   font-weight: 400;
-  flex: none;
+  
 }
 
 /* ///////////////////////////////////MAIIN/////////////////////////////// */
@@ -678,6 +677,7 @@ select:hover{
 }
 
 .bg-text {
+  font-family: Roboto;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -1252,7 +1252,6 @@ border-bottom: 1px solid #000;
   display: flex;
   align-items: center;
   margin-right: 25px;
-  flex: none;
 }
 
 .wrap-social:last-child {
@@ -1310,6 +1309,11 @@ border-bottom: 1px solid #000;
 
 .nav-item {
   margin-right: 30px;
+  flex: none;
+}
+
+.phone {
+  flex: none;
 }
 
 .welcome-description {
