@@ -33,25 +33,6 @@ textarea {
   padding: 0px;
 }
 
-@font-face {
-  font-family: Roboto; 
-  src: url(./fonts/Roboto-Regular.woff); 
-  font-weight: 400;
-  font-style: normal;
-}
-  
-@font-face {
-  font-family: Roboto; 
-  src: url(./fonts/Roboto-Medium.woff); 
-  font-weight: 500;
-}
-  
-@font-face {
-    font-family: Roboto; 
-    src: url(./fonts/Roboto-Bold.woff); 
-    font-weight: 700;
-}
-
 .container {
   width: 1168px;
   margin: 0 auto;
@@ -174,7 +155,6 @@ textarea {
   line-height: 24px;
   letter-spacing: -0.01em;
   font-weight: 400;
-  
 }
 
 /* ///////////////////////////////////MAIIN/////////////////////////////// */
@@ -213,7 +193,7 @@ textarea {
   align-items: flex-start;
 }
 
-.main-item{
+.main-item {
   height: 34px;
   font-weight: 700;
   font-size: 23px;
@@ -222,7 +202,7 @@ textarea {
   margin-right: 30px;
 }
 
-.main-item:last-child{
+.main-item:last-child {
   margin-right: 0px;
 }
     
@@ -265,6 +245,7 @@ textarea {
 .cards:nth-child(6) {
   margin-right: 0px;
 }
+
 .cards:nth-child(4),
 .cards:nth-child(5),
 .cards:nth-child(6) {
@@ -354,8 +335,8 @@ textarea {
 }
     
 .cards:active .cards-btn {
-    background: #EFA501;
-    border-radius: 50px;
+  background: #EFA501;
+  border-radius: 50px;
 }
 
 .payments {
@@ -382,7 +363,7 @@ textarea {
 
 /* /////////////////////////////FORMA/////////////////////// */
 
-.wrap-tour{
+.wrap-tour {
   margin-top: 135px;
   height: 1245px;
   padding: 0;
@@ -427,7 +408,6 @@ textarea {
   margin: 100px auto 0;
   background: #FFFFFF;
   border-radius: 50px;
-  flex-wrap: wrap;
 }
  
 .str {
@@ -478,9 +458,16 @@ select:hover{
   border: 1px solid #F4F0E9;
 }
 
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .forma-wrapper {
   position: relative;
-  max-width: 500px;
+  width: 500px;
   display: flex;
   flex-direction: column;
   margin-right: 30px;
@@ -490,7 +477,7 @@ select:hover{
 .forma-wrapper:nth-child(2),
 .forma-wrapper:nth-child(4),
 .forma-wrapper:nth-child(6) {
- margin-right: 0px;
+  margin-right: 0px;
 } 
 
 .forma-text {
@@ -508,7 +495,7 @@ select:hover{
 }
 
 .forma::-webkit-input-placeholder{
-    color: #A6A6A6;
+  color: #A6A6A6;
 }
     
 .comment-wrap {
@@ -518,7 +505,7 @@ select:hover{
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
- margin-bottom: 33px;  
+  margin-bottom: 33px;  
 }
 
 .comment {
@@ -550,7 +537,7 @@ select:hover{
 } 
 
 .forma-radio {
-  width: 1030px;
+  width: 100%;
   height: 64px;
   display: flex;
   flex-direction: column;
@@ -604,8 +591,7 @@ select:hover{
 .radio_input:checked + .btn__check {
   background-image: url(./assets/on-btn.svg);
 }
-
-   
+ 
 .check-wrap {
   height: 26px;
   display: flex;
@@ -617,6 +603,7 @@ select:hover{
   max-width: 554px;
   display: flex;
   align-items: center;
+  flex-direction: row;
   margin-bottom: 33px;
 }
          
@@ -688,7 +675,7 @@ select:hover{
  color: #286562;
 }
  
-.big-btn{
+.big-btn {
   width: 235px;
   height: 58px;
   background: #286562;
@@ -779,7 +766,6 @@ select:hover{
 
 .cards-reviews:last-child {
   margin-right: 0px;
-
 }
      
 .text-reviews {
@@ -891,6 +877,7 @@ select:hover{
   margin-right: 30px;
   flex-grow: 1;
 }
+
 .mob-photo {
   object-fit: cover;
 }
@@ -1052,8 +1039,8 @@ select:hover{
   font-size: 20px;
   line-height: 28px;
   font-weight: 400;
-  list-style: inside;
   color: #fff;
+  margin-left: 11px;
 }
 
 .wrapper-text-card-story {
@@ -1062,6 +1049,11 @@ select:hover{
   display: flex;
   flex-direction: column;
   justify-content: space-between; 
+}
+
+li:before {
+  content: "•";
+  margin-right: 12px;
 }
 
 .footer-cards-stories {
@@ -1089,7 +1081,6 @@ select:hover{
   width: 343px;
 }
 
-    
 .social {
   font-weight: 400;
   font-size: 20px;
@@ -1237,7 +1228,7 @@ select:hover{
 
 .social-text {
   height: 28px;
-  padding-left: 10px;
+  margin-left: 10px;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -1274,12 +1265,15 @@ border-bottom: 1px solid #000;
   width: 26px;
   height: 26px;
 }
+
 .inst {
   padding: 7px 2px 5px 10px;
 }
+
 .face {
   padding: 5px 5px 4px 13px;
 }
+
 .vk {
   padding: 8px 2px 4px 4px;
 }
@@ -1341,7 +1335,7 @@ border-bottom: 1px solid #000;
 }
 
 .cards:nth-child(3) {
-margin-right: 18px;
+  margin-right: 18px;
 }
 
 .cards:nth-child(2),
@@ -1384,6 +1378,7 @@ margin-right: 18px;
 
 .forma-wrapper {
   max-width: 389px;
+  width: calc(50% - 20px);
   height: 104px;
   margin-right: 20px;
   flex-grow: 1;
@@ -1564,7 +1559,6 @@ select:hover {
   border: 1px solid #F4F0E9;
 }
 
-
 .forma:hover {
 background: #F9F7F4;
 border: 1px solid #F4F0E9;
@@ -1640,7 +1634,6 @@ border: 1px solid #F4F0E9;
 .photo-wrapper {
   width: 100vw;
   height: 301px;
-
 }
 
 .travel-photo {
@@ -1650,17 +1643,16 @@ border: 1px solid #F4F0E9;
 .travel-photo-two {
   width: 23%;
   height: 301px;
- 
 }
 
 .travel-photo-img {
   width: 23%;
   height: 301px;   
 }
+
 .photo-wrapper-two {
   height: 301px;
-  justify-content: center;
-  
+  justify-content: center; 
 }
 
 .container-stories {
@@ -1670,6 +1662,7 @@ border: 1px solid #F4F0E9;
 .wrap-cards-stories {
   padding: 0% 5%;
 }
+
 .cards-stories {
   width: 100%;
   height: 567px;
@@ -1683,7 +1676,6 @@ border: 1px solid #F4F0E9;
   width: 100%;
 }
 
-
 .social:hover {
   text-decoration-line: none;
 }
@@ -1692,6 +1684,7 @@ border: 1px solid #F4F0E9;
   text-decoration-line: none;
   color: #fff;
 }
+
 .cards-stories:hover .cards-btn {
   position: static;
   left: 0px;
@@ -1735,4 +1728,5 @@ border: 1px solid #F4F0E9;
 .cards-footer-reviews {
   padding: 7% 0 0;
 }
+
 }

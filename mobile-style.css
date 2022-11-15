@@ -58,6 +58,7 @@
   font-size: 16px;
   line-height: 23px;
 }
+
 .wrap-main {
   height: 2172px;
   margin-top: 75px;
@@ -70,7 +71,6 @@
 
 .content-wrapper-main {
   height: 124px;
-  
 }
 
 .main-title {
@@ -196,7 +196,7 @@
   width: 318px;
   font-size: 16px;
   line-height: 23px;
-  }
+}
 
 .forma-wrap {
   width: 100%;
@@ -229,8 +229,6 @@ select {
   font-size: 16px;
   line-height: 23px;
 }
-
-
 
 .forma {
   height: 43px;
@@ -285,7 +283,6 @@ select {
   margin-right: 0px;
 } 
 
-
 .radio-text {
   padding-left: 30px;
   font-size: 16px;
@@ -293,8 +290,8 @@ select {
 }
 
 .radio_input {
-    visibility: hidden;
-    display: none;
+  visibility: hidden;
+  display: none;
 }
         
 .btn__check {
@@ -352,7 +349,6 @@ select {
   width: 278px;
   height: 47px; 
   justify-content: space-between;
-   
 }
 
 .big-btn {
@@ -360,6 +356,7 @@ select {
   height: 47px;
   margin-right: 10px;    
 }
+
 .big-btn:nth-child(2) {
   margin-right: 0px;
 }
@@ -522,7 +519,6 @@ select {
   margin-right: 0;
 }
 
-
 .travel-photo-img {
   width: 99px;
   height: 110px;
@@ -605,7 +601,6 @@ select {
   height: 306px;
   width: 263px;
   padding: 30px;
- 
 }
 
 .cards-title-stories {
@@ -627,6 +622,12 @@ select {
   width: 263px;
   font-size: 16px;
   line-height: 23px;
+  margin-left: 8px;
+}
+
+li:before {
+  content: "•";
+  margin-right: 10px;
 }
 
 .wrapper-text-card-story {
@@ -727,8 +728,9 @@ select {
   height: 23px;
   font-size: 16px;
   line-height: 23px;
-  padding-left: 10px;
+  margin-left: 5px;
 }
+
 
 .wrap-social {   
   margin-right: 15px;
@@ -737,6 +739,7 @@ select {
 .inst {
   padding: 5px 2px 4px 8px;
 }
+
 .face {
   padding: 4px 4px 3px 10px;
 }
@@ -752,6 +755,7 @@ select {
 .facebook {
   width: 92px;
 }
+
 .vkontakte {
   width: 95px;
 }
